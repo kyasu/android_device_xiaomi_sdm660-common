@@ -41,6 +41,10 @@ on boot
     chmod 0660 /sys/class/leds/red/brightness
     chmod 0660 /sys/class/leds/red/max_brightness
 
+    # USB Fastcharge
+    chown system system /sys/kernel/fast_charge/force_fast_charge
+    chmod 0660 /sys/kernel/fast_charge/force_fast_charge
+
 # KCal
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal_cont
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal_enable

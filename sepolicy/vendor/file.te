@@ -17,6 +17,9 @@ type vendor_sysfs_hvdcp, fs_type, sysfs_type;
 # Hall Switch
 type hall_dev, sysfs_type, fs_type;
 
+# Fast Charge
+type sysfs_fcharge, sysfs_type, fs_type;
+
 # Kcal
 type kcal_dev, sysfs_type, fs_type;
 

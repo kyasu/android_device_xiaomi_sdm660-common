@@ -30,3 +30,5 @@ allow init {
 }:file mounton;
 
 allow init hal_fingerprint_sdm660:process ptrace;
+allow init per_boot_file:file ioctl;
+allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };

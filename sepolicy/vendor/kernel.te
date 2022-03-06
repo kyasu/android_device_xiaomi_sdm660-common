@@ -1,1 +1,2 @@
 allow kernel kernel:qipcrtr_socket create;
+allow kernel per_boot_file:file r_file_perms;

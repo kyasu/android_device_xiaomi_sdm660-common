@@ -33,3 +33,5 @@ type sysfs_battery_saver, fs_type, sysfs_type;
 # PowerHAL
 type proc_sched_energy_aware, proc_type, fs_type;
 
+# Data files
+type per_boot_file, file_type, data_file_type, core_data_file_type;

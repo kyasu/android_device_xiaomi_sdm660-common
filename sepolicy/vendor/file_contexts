@@ -15,6 +15,9 @@
 /dev/blkio(/.*)?                                                                                                                  u:object_r:blkio_dev:s0
 /dev/blkio/background(/.*)?                                                                                                       u:object_r:blkio_dev:s0
 
+# Data files
+/data/per_boot(/.*)?                                                 u:object_r:per_boot_file:s0
+
 # Device nodes
 /dev/stune(/.*)?	                                                                                                           u:object_r:cgroup:s0
 

@@ -121,6 +121,9 @@ TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+ifeq ($(filter clover,$(TARGET_DEVICE)),)
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor-dsds.prop
+endif
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk

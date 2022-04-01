@@ -152,6 +152,7 @@ debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 
 # Media
+debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 vidc.enc.dcvs.extra-buff-count=2
 

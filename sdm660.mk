@@ -154,7 +154,9 @@ PRODUCT_PACKAGES += \
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
-    libsfplugin_ccodec
+    libsfplugin_ccodec \
+    android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.1.vendor
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
@@ -266,7 +268,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor \
     android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.media.c2@1.1.vendor \
     android.hardware.neuralnetworks@1.3 \
     android.hardware.neuralnetworks@1.3.vendor \
     android.hardware.keymaster@3.0.vendor \
@@ -365,7 +366,6 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.1.vendor \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libc2dcolorconvert \

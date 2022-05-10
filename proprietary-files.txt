@@ -787,11 +787,11 @@ vendor/lib64/libsensor_reg.so|b18e116898180bc196374ca76390e78e4a295dcb
 vendor/lib64/libssc_default_listener.so|32362d1d20fe76de96daea735787d1f6ef8c2dd4
 vendor/lib64/sensor_calibrate.so|9f0cd5ba6e11c50765f090deb6d8697e2eb3a187
 
-# Thermal - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/bin/thermal-engine|6141013a5402a1a495b18ead103f0753277c8afd
+# Thermal - from laurel_sprout V12.0.15.0.RFQMIXM
+vendor/bin/thermal-engine|c0f7dc730227266d9fbe01a4c730a1ee91a60254
 vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
--vendor/lib/libthermalclient.so|0fcade69460becdbb5adb54e5ff9d11ff8d32c23
--vendor/lib64/libthermalclient.so|30033f4831c1b6e30d9cee4a93b599fdf97cb3a7
+-vendor/lib/libthermalclient.so|196acc1aaae1810ea9ba56bf9e1bb9ee2e486f6a
+-vendor/lib64/libthermalclient.so|8f2411404f56c6d15e6a185124bbc7f8c2adf195
 
 # Time services - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 -vendor/app/TimeService/TimeService.apk|b3e694ecbf8eccf3b503b2adfc1133f13fa0c176

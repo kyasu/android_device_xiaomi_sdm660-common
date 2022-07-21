@@ -158,6 +158,7 @@ vendor.gralloc.enable_fb_ubwc=1
 video.disable.ubwc=1
 vendor.video.disable.ubwc=1
 debug.sf.auto_latch_unsignaled=true
+debug.sf.predict_hwc_composition_strategy=0
 
 # FS-verity
 ro.apk_verity.mode=2

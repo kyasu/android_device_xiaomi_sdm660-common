@@ -99,7 +99,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|c6be436d0f66aafd5be3a
 vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 
 # Bluetooth (A2DP) - from S62Pro
-vendor/lib/hw/audio.bluetooth_qti.default.so|0fc8e709075ba7e984a4d5a1e9f7143698a78f98
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|f5ea997b223943101bed84470f191b2e4ce8957c
 vendor/lib/btaudio_offload_if.so|752c3e774c1585f7842ecbd85180365d85fc789f
 vendor/lib/libbluetooth_audio_session_qti.so|9a86488113e10594e0a3d4a36b436c6b7fd59317

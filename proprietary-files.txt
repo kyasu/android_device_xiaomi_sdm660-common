@@ -256,7 +256,9 @@ vendor/lib64/librpmb.so|eac8411b60e4842b0fee4c9145dd9cdc3e24a67e
 vendor/lib64/libsdedrm.so|f02d7bef5f9fa3f1265b5a8b3b8ab481a4cedee2
 vendor/lib64/libsecureui.so|bf74717b722fa5d5804f1458d986cf3354e7cb92
 vendor/lib64/libsecureui_svcsock.so|0f98eb0361686318d954cf72688564789f3f13fa
+vendor/lib64/libsi.so|9475d97d9230283df70edf126368234f1c7fb32b
 vendor/lib64/libssd.so|774488b88c37053067b3cad551ac95360c03edd3
+vendor/lib64/libtzdrmgenprov.so|8cdbc623f9cbafeab8f89cd24f6875c36fd9121e
 
 # DRM (Qualcomm Trusted Execution Enviroment) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
@@ -274,18 +276,20 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|3234100973fb8c34b0bb3b3b82db4aa038d1efcf
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|8837d8d38f9448c729a2e7ca196067d7c0e7ecd3
 
-# DRM (Widevine) - from S62Pro RKQ1.210406.002
+# DRM (Widevine) - from LA.UM.10.2.1.r1-03400-sdm660.0
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib64/mediadrm/libwvdrmengine.so|eef10067daf437a2c302e668967a7c8c55fddbe9
 vendor/lib64/libbase64.so|ba6ad6314fe82d8efc770e436237dec48c9d1331
 vendor/lib64/libcpion.so|80d7e010395b3ead01b70435584dfa11afbb52bf
 vendor/lib64/librmp.so|6392e70196f5a6da2d49a1aaec60f06ca378f1c4
 vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
-vendor/lib64/mediadrm/libwvdrmengine.so|eef10067daf437a2c302e668967a7c8c55fddbe9
 
-# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
-vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
+# DRM (Widevine HDCP) - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/lib64/libhdcpsrm.so|1cb91cbaad3c0a44df4f244f8fb462a9f0ebb0b2
+vendor/lib/libmm-hdcpmgr.so|02cc65f79a951f9006ebc05b0edec2c5a296a684
+vendor/lib64/libmm-hdcpmgr.so|eb7db96305875b80971fec7b93ea800b6c9a1a77
 
 # DSP - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/bin/dspservice|f194ad65a930f1ac1a7fdfefc637c0531d185e89
@@ -404,10 +408,6 @@ vendor/lib64/libllvm-qcom.so|dbb82d23cc3ffbff1873fd7b9ae11a3803fcdbe6
 vendor/lib64/libOpenCL.so|b11edb1001dd25079e9f197fcd3910285cba0311
 vendor/lib64/librs_adreno.so|766453d2e3a4ab4a01908b78240abaa4f1b73d21
 vendor/lib64/libVkLayer_q3dtools.so|e907764fd273e64435814f3024881bf5e2974d29
-
-# Graphics (HDCP) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/lib/libmm-hdcpmgr.so|02cc65f79a951f9006ebc05b0edec2c5a296a684
-vendor/lib64/libmm-hdcpmgr.so|eb7db96305875b80971fec7b93ea800b6c9a1a77
 
 # Graphics (HDR) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842

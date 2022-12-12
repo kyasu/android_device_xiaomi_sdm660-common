@@ -65,14 +65,21 @@ vendor/lib64/libqtigef.so|d67d34d56a64dd68c9968ee506bda77c987917c0
 # Audio FX modules - from S62Pro RKQ1.210406.002
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 -system_ext/framework/audiosphere.jar|9c28317f12b93a6d881c80a991ff24716fce4a12
+
+# Audio FX modules - from LA.UM.10.2.1.r1-03400-sdm660.0
 vendor/lib/soundfx/libasphere.so|90940fca6f4b84794046513c6c6868eca9470066
-vendor/lib/soundfx/libqcbassboost.so|8e92c5d40cd23f503840b055d71336e4c9daecc0
-vendor/lib/soundfx/libqcreverb.so|7e05f1f4bdd2947dac3aefd871437d289581078b
-vendor/lib/soundfx/libqcvirt.so|03a8b95eb77811e3861307ab1451f4144bba2572
+vendor/lib/soundfx/libqcbassboost.so|aac5bea9960c11c55034cea185727578f77dd99f
+vendor/lib/soundfx/libqcreverb.so|43351be2315d6f5abe56bb04ccde694fc8c9c973
+vendor/lib/soundfx/libqcvirt.so|275210f123115e4812ab7fa6b1b0da0cc23bceb9
+vendor/lib/soundfx/libshoebox.so|ecf66dc4877142fb2d903429f4968088c9b7a129
 vendor/lib64/soundfx/libasphere.so|b9296f601776e631be0f347f8f10d26689103d12
-vendor/lib64/soundfx/libqcbassboost.so|c7848527250aadbebf3678f7a4dabaa626ff0592
-vendor/lib64/soundfx/libqcreverb.so|3757e8f881b812a9dd15745ea3970cc503c1fe2e
-vendor/lib64/soundfx/libqcvirt.so|87e373b19ef8afed1f087571136b37c3a8d452c0
+vendor/lib64/soundfx/libqcbassboost.so|422a9131a6fad4aedcd67e69add14539903b64a5
+vendor/lib64/soundfx/libqcreverb.so|704c794e2d8b50b3a65c1a3558575a1ff444f8b5
+vendor/lib64/soundfx/libqcvirt.so|4f9ef1fc680a39cd80902a5745ad67612f69c3a4
+vendor/lib64/soundfx/libshoebox.so|37c60f9b0c8d451e118c351215f8234d7f6b82af
+
+# Audio FX modules - from LA.UM.8.2.r1-07500-sdm660.0
+vendor/lib/soundfx/libmisoundfx.so|569ee2df586e95116b79cfb3d89429f2032a7a76
 
 # Alarm - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|3b965f7f7edf7974dcf2f6b60ee72144ecb17dd2
@@ -84,19 +91,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|464f1137f33a50f1f6ca8114969dad278a
 
 # ANT+ - from S62Pro
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
-
-# Audio FX modules - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/soundfx/libasphere.so|eaa35262337a8401aaecf02997e98e24083f064c
-vendor/lib/soundfx/libqcbassboost.so|a812a997ac3a314684ef46f4bb1a0d20c6805eb5
-vendor/lib/soundfx/libqcreverb.so|93d7325d3cc6a798b3d8cdb4317a91bcc81f8444
-vendor/lib/soundfx/libqcvirt.so|5f7c268e19a95cc9e17cc471b1664ce532d117c1
-vendor/lib64/soundfx/libasphere.so|27154ce2eed6902f36ed8c85324cf61c96c8af02
-vendor/lib64/soundfx/libqcbassboost.so|927ded057e9b098144617ce8416c82a6d68c3865
-vendor/lib64/soundfx/libqcreverb.so|5bd29987814ca813e49cd1a188ba4250244b82fa
-vendor/lib64/soundfx/libqcvirt.so|a362fce913d3ef85cd4d65fcfd09f53c00043bd6
-
-# Audio FX modules - from LA.UM.8.2.r1-07500-sdm660.0
-vendor/lib/soundfx/libmisoundfx.so|569ee2df586e95116b79cfb3d89429f2032a7a76
 
 # Bluetooth - from S62Pro
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d

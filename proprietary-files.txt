@@ -420,10 +420,14 @@ vendor/lib64/libtinyxml.so|da9f11e9edc92bb6d5e8f64f4fbbaf8019b8587a
 vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842
 vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
 
-# Graphics (Postprocessing) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
+# Graphics (Postprocessing) - from LA.UM.10.2.1.r1-03400-sdm660.0
 vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
 vendor/bin/mm-pp-dpps|a265b90d727a3a8716796bbfc632e0307172b3dc
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/vendor.display.color@1.0.so|717da2c9f8b5b2ff99110495a3a6603b84cf1d45
+vendor/lib/vendor.display.color@1.1.so|2e5e1610b391a80ebb6f4901f337484f411fb206
+vendor/lib/vendor.display.color@1.2.so|3a62e543a7b8f37a6d9996bf0c7d5c17ae71e77c
+vendor/lib/vendor.display.postproc@1.0.so|b0fab559d068fb27a2530e012847cd15f3dfc342
 vendor/lib64/libdisp-aba.so|c4d6c0afc8878f6bd6bb59b857ef89a498ec274c
 vendor/lib64/vendor.display.color@1.0.so|f53d722166d8fa11792d538d8b89a83473bd153b
 vendor/lib64/vendor.display.color@1.1.so|ae4ed743391c15c0512f4fc34d23b82264646856

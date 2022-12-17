@@ -578,6 +578,14 @@ vendor/lib/libqmi_csi.so|00256ae35678b48bb1c45c7b97e6a84bcfeb7164
 vendor/lib/libqmi_encdec.so|16d1f1359ecdc2cd9b7f47cc05ac71a954fae76a
 vendor/lib/libqmiservices.so|d1e3378b5ea0983daa4b25935b64070dc6cfaf6b
 
+# QSEEcom Hal - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|6b3246eaacad1ef332e3deb1c980265ddf263a57
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|ba96362cc5d0cc857fcb9f0b0992101a39340f71
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|c76c8b6856cd1800fd170c85f38474ce4d2ac095
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|c40ad19569676878f6bac09b18fff119c8f6f68b
+
 # Radio - from ginkgo V12.5.1.0.RCOCNXM
 -system_ext/app/DeviceInfo/DeviceInfo.apk|9f0039d6a431055d59a3f70d6237481dc0794908
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|20da64a1fbb4d9c04c763333c4d9a0b7c1053fb9

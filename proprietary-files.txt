@@ -755,6 +755,24 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|346a6f516637632cce8297
 # Radio - IMS - from nubia NX659J 20201109.121337
 -system_ext/priv-app/ims/ims.apk|3dae438ef192086a8913c06d24c055802c25f2a6
 
+# SCVE - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/lib/libscveCommon.so|38c596b90b0e5f28ed3191db7dbd9af14e7d2ac5
+vendor/lib/libscveCommon_stub.so|0a7d0e7439b1f9bdfc55c8a9473b17044a924bfa
+vendor/lib/libscveObjectSegmentation.so|06f61f0c0da765924256b6e52583a6d2eb538ac5
+vendor/lib/libscveObjectSegmentation_stub.so|400aed1d65dcb81085e133ce252104f27331642d
+vendor/lib/libscveObjectTracker.so|fbba8eb2cfe1116b2669332e8b841b51d6d41ca4
+vendor/lib/libscveObjectTracker_stub.so|d35122035aa0ddb52dae408ed415d8db692a1c9d
+vendor/lib/vendor.qti.hardware.scve.objecttracker@1.0.so|30891d8df43826096c919fdaf8e5619483c150bc
+vendor/lib/vendor.qti.hardware.scve.panorama@1.0.so|39442969fc36d0013051ff6022a32c737a042f70
+vendor/lib64/libscveCommon.so|1603e11f268390739f9d0297ab0b8e84886becab
+vendor/lib64/libscveCommon_stub.so|bcf566f120b795ef6fe85450298475b56e7c9659
+vendor/lib64/libscveObjectSegmentation.so|1598ad3797897eb3331a545c74d937c0ae0aeddf
+vendor/lib64/libscveObjectSegmentation_stub.so|f5d9974c11db8921d8e5d6528c8c39719cec0569
+vendor/lib64/libscveObjectTracker.so|7df26ae466c70db7bbc72b1d242c1f3f983b668e
+vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
+vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f8d978ce0958c8dac3418115decf4703095ea6f4
+vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|45b81be0ba767fd5c06c89e6705006ac815fe957
+
 # Sensors - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 -system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|2c3eaefd3e883668ce61ecceb65c92b948cca8ff
 system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|4307a6f48c60076d2c8fa688cb699f3aceddc4f8

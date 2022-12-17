@@ -412,6 +412,10 @@ vendor/lib64/libOpenCL.so|b11edb1001dd25079e9f197fcd3910285cba0311
 vendor/lib64/librs_adreno.so|766453d2e3a4ab4a01908b78240abaa4f1b73d21
 vendor/lib64/libVkLayer_q3dtools.so|e907764fd273e64435814f3024881bf5e2974d29
 
+# Graphics (Dependency) - from LA.UM.10.2.1.r1-03400-sdm660.0
+vendor/lib/libtinyxml.so|16853d57ef82d59b48506857fc80b149ba3b3543
+vendor/lib64/libtinyxml.so|da9f11e9edc92bb6d5e8f64f4fbbaf8019b8587a
+
 # Graphics (HDR) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842
 vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6

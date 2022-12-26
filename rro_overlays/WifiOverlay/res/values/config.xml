@@ -63,4 +63,10 @@
 
     <!-- Enable WPA2 to WPA3 auto-upgrade -->
     <bool translatable="false" name="config_wifiSaeUpgradeEnabled">false</bool>
+
+    <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
+    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
+
+    <!-- Wifi driver supports IEEE80211AC for softap -->
+    <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">true</bool>
 </resources>

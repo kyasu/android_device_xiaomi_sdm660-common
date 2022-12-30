@@ -660,26 +660,8 @@
          Must be in the range specified by minimum and maximum.-->
     <item name="config_screenBrightnessSettingDefaultFloat" format="float" type="dimen">0.3843137</item>
 
-    <!-- Buttom brightness setting allowed by the power manager.
-         The user is forbidden from setting the brightness. -->
-    <integer name="config_buttonBrightnessSettingDefault">64</integer>
-
     <!-- Enable video pause workaround when enabling/disabling the camera. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
-
-    <!-- Display mode remapping table.
-         If the mode names returned by the backend do not match
-         the predefined and translated strings in the Settings
-         app, they can be remapped here. The format is
-         "oldname:newname", one per entry. -->
-    <string-array name="config_displayModeMappings" translatable="false">
-        <item>A_Standard:standard</item>
-        <item>B_Warm mode:reading</item>
-        <item>D_Cold mode:dynamic</item>
-    </string-array>
-
-    <!-- Should we filter any display modes which are unampped? -->
-    <bool name="config_filterDisplayModes">true</bool>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
@@ -731,9 +713,6 @@
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">25</integer>
-
-    <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 
     <!-- The device supports freeform window management. Windows have title bars and can be moved
         and resized. If you set this to true, you also need to add
@@ -797,22 +776,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Does the notification LED support multiple colors?
-    Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">false</bool>
-
-    <!-- Default value for led color when battery is low on charge -->
-    <integer name="config_notificationsBatteryLowARGB">0xFFFFFFFF</integer>
-
-    <!-- Default value for led color when battery is medium charged -->
-    <integer name="config_notificationsBatteryMediumARGB">0xFFFFFFFF</integer>
-
-    <!-- Default value for led color when battery is fully charged -->
-    <integer name="config_notificationsBatteryFullARGB">0xFFFFFFFF</integer>
-
-    <!-- Multicolor Led Support -->
-    <bool name="config_multiColorBatteryLed">false</bool>
-
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 
@@ -821,10 +784,6 @@
 
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
-
-    <!-- Whether device needs to wait for Qualcomm MPCTL service to start
-         before setting power profiles on boot. -->
-    <bool name="config_waitForMpctlOnBoot">true</bool>
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
@@ -845,14 +804,6 @@
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
-
-    <!-- Time to give to the proximity sensor before toggling the flashlight with the Power button.
-      Set to -1 to disable the proximity sensor check at all-->
-    <integer name="config_flashlightProximityTimeout">-1</integer>
-
-    <!-- Whether to artificially interpret all signal strengths as
-         one bar higher than they actually are -->
-    <bool name="config_inflateSignalStrength">true</bool>
 
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
@@ -931,21 +882,10 @@
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
-    <!-- Smart charge sysfs node and value for suspend/resume charging-->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
-
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
      manually by the user. Off by default, since the expected haptic feedback may not be
      available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
-
-    <!-- list of interface names for SoftAp in Dual mode. -->
-    <string-array translatable="false" name="config_wifi_dual_sap_interfaces">
-        <item>"softap1"</item>
-        <item>"softap2"</item>
-    </string-array>
 
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
@@ -961,20 +901,12 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-    <!-- Whether or not to hide the navigation bar when the soft keyboard is visible in order to
-         create additional screen real estate outside beyond the keyboard. Note that the user needs
-         to have a confirmed way to dismiss the keyboard when desired. -->
-    <bool name="config_automotiveHideNavBarForKeyboard">true</bool>
-
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
-
-    <!-- Configuration to enable non-default PDP during IWLAN -->
-    <bool name="config_feature_iwlan_enabled">true</bool>
 
     <!-- IWLAN data service package name to bind to by default. If none is specified in an overlay, an
      empty string is passed in -->
@@ -986,9 +918,6 @@
 
     <!-- Telephony qualified networks service package name to bind to by default. -->
     <string translatable="false" name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
-
-    <!-- Specify custom blanking delay of the display -->
-    <integer name="config_screen_off_delay">0</integer>
 
     <!-- Flag indicating whether the surface flinger has limited alpha compositing functionality in hardware. If set, the window manager will disable alpha trasformation in animations where not strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
@@ -1064,6 +993,4 @@
         <!-- B y-intercept --> <item>-0.349361641294833436</item>
     </string-array>
 
-    <!-- Whether device ignores the RSSNR signal implementation -->
-    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>

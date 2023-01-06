@@ -135,6 +135,7 @@ debug.sf.disable_client_composition_cache=1
 debug.sdm.support_writeback=0
 dev.pm.dyn_samplingrate=1
 ro.vendor.display.cabl=2
+debug.hwui.skia_atrace_enabled=false
 vendor.display.disable_skip_validate=1
 vendor.display.enable_default_color_mode=0
 vendor.display.idle_time=32767

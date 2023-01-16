@@ -119,6 +119,7 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm660
 
 # Kernel
+BOARD_BOOT_HEADER_VERSION := 1
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
     user_debug=31 \
@@ -133,7 +134,7 @@ BOARD_KERNEL_CMDLINE := \
     usbcore.autosuspend=7 \
     kpti=off \
     androidboot.boot_devices=soc/c0c4000.sdhci
-
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb

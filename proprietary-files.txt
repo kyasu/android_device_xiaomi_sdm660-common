@@ -726,9 +726,6 @@ vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
 vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
 vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
 
-# Power-off charging daemon - from msm8998
--sbin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
-
 # QMI - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0

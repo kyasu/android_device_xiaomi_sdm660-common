@@ -17,6 +17,7 @@ dontaudit untrusted_app proc:file { read };
 dontaudit untrusted_app proc:file { open };
 dontaudit untrusted_app proc_net_tcp_udp:file { open };
 dontaudit untrusted_app proc_version:file { read };
+dontaudit untrusted_app_30 system_linker_exec:file { execmod };
 
 allow untrusted_app rootfs:dir { read };
 

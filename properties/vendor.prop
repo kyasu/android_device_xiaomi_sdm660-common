@@ -219,6 +219,7 @@ debug.egl.hw=1
 debug.enable.sglscale=1
 debug.sf.recomputecrop=0
 ro.hwui.render_ahead=3
+ro.config.avoid_gfx_accel=true
 
 # Sensors
 ro.vendor.sensors.facing=false

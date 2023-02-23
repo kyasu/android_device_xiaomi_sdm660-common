@@ -27,3 +27,5 @@ allow init {
  vendor_framework_file
  vendor_app_file
 }:file mounton;
+
+allow init hal_fingerprint_sdm660:process ptrace;

@@ -150,7 +150,9 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec \
     android.hardware.media.c2@1.0.vendor \
-    android.hardware.media.c2@1.1.vendor
+    android.hardware.media.c2@1.1.vendor \
+    libcodec2_vndk.vendor \
+    libcodec2_hidl@1.0.vendor
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk )
@@ -427,6 +429,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     frameworks/native/data/etc/android.software.opengles.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
     frameworks/native/data/etc/android.hardware.ethernet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.ethernet.xml
+
 
 # Perfd (dummy)
 PRODUCT_PACKAGES += \

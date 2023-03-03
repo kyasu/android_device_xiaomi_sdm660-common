@@ -4,8 +4,26 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+soong_config_module_type {
+    name: "clover_backlight_cc_defaults",
+    module_type: "cc_defaults",
+    config_namespace: "CLOVER_BACKLIGHT",
+    bool_variables: ["USE_LCD_BACKLIGHT_INTERFACE_ONLY"],
+    properties: ["cppflags"],
+}
+
+clover_backlight_cc_defaults {
+    name: "clover_backlight_defaults",
+    soong_config_variables: {
+        USE_LCD_BACKLIGHT_INTERFACE_ONLY: {
+            cppflags: ["-DUSE_LCD_BACKLIGHT_INTERFACE_ONLY=%d"],
+        },
+    },
+}
+
 cc_binary {
     name: "android.hardware.light-service.xiaomi_sdm660",
+    defaults: ["clover_backlight_defaults"],
     overrides: ["android.hardware.lights-service.qti"],
     relative_install_path: "hw",
     init_rc: ["android.hardware.light-service.xiaomi_sdm660.rc"],

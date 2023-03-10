@@ -1,2 +1,2 @@
 allow hvdcp vendor_sysfs_hvdcp:file r_file_perms;
-allow hvdcp sysfs:file { open  read };
+allow hvdcp sysfs:file { open  read getattr };

@@ -30,4 +30,11 @@ r_dir_file(hal_fingerprint_sdm660, firmware_file)
 r_dir_file(hal_fingerprint_sdm660, sysfs_devfreq)
 set_prop(hal_fingerprint_sdm660, hal_fingerprint_prop)
 
+# allow hal_fingerprint_sdm660 default_android_hwservice:hwservice_manager find;
+allow hal_fingerprint_sdm660 kcal_dev:dir search;
+allow hal_fingerprint_sdm660 kcal_dev:file read;
+allow hal_fingerprint_sdm660 mnt_vendor_file:dir search;
+allow hal_fingerprint_sdm660 persist_drm_file:dir read;
+# allow hal_fingerprint_sdm660 vendor_toolbox_exec:file execute_no_trans;
+
 dontaudit hal_fingerprint_default storage_file:dir search;

@@ -119,7 +119,7 @@ PRODUCT_PACKAGES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sdm660
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -261,7 +261,7 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
+    android.hardware.biometrics.fingerprint@2.3.vendor \
     android.hardware.bluetooth@1.0.vendor \
     android.frameworks.displayservice@1.0.vendor \
     android.hardware.gatekeeper@1.0.vendor \

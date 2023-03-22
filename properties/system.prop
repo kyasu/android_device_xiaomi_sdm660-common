@@ -11,7 +11,6 @@ ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
 # Bluetooth & FM
-persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd
 vendor.bluetooth.soc=cherokee
 bt.max.hfpclient.connections=1
 vendor.hw.fm.init=0

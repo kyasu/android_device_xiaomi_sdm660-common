@@ -23,6 +23,7 @@ allow hal_fingerprint_sdm660 sysfs_devfreq:dir search;
 allow hal_fingerprint_sdm660 sysfs_devfreq:file r_file_perms;
 allow hal_fingerprint_sdm660 mnt_vendor_file:dir search; 
 allow hal_fingerprint_sdm660 mnt_vendor_file:file r_file_perms;
+allow hal_fingerprint_sdm660 persist_drm_file:dir rw_dir_perms;
 
 binder_call(hal_fingerprint_sdm660, hal_perf_default)
 r_dir_file(hal_fingerprint_sdm660, firmware_file)

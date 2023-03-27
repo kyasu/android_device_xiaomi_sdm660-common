@@ -236,8 +236,13 @@ ro.soc.model=SDM660
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # USB
+sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
-vendor.usb.use_ffs_mtp=0
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.rmnet.func.name=gsi
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.use_ffs_mtp=1
+vendor.usb.use_gadget_hal=0
 
 # WiFi
 wifi.aware.interface=wifi-aware0

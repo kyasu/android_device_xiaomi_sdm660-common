@@ -2918,6 +2918,11 @@ esac
 
 case "$target" in
     "sdm660" | "sdm636")
+    
+        # Set the default IRQ affinity to the primary cluster. When a
+        # CPU is isolated/hotplugged, the IRQ affinity is adjusted
+        # to one of the CPU from the default IRQ affinity mask.
+        echo f > /proc/irq/default_smp_affinity
 
         if [ -f /sys/devices/soc0/soc_id ]; then
                 soc_id=`cat /sys/devices/soc0/soc_id`

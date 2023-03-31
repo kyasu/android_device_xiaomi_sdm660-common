@@ -64,6 +64,13 @@ void property_override(char const prop[], char const value[], bool add = true) {
 
 void property_override_dual(char const system_prop[], char const vendor_prop[],
                             char const value[]) {
+     property_override(system_prop, value);
+     property_override(vendor_prop, value);
+}
+
+void property_override_triple(char const product_prop[], char const system_prop[],
+                              char const vendor_prop[], char const value[]) {
+    property_override(product_prop, value);
     property_override(system_prop, value);
     property_override(vendor_prop, value);
 }
@@ -104,15 +111,17 @@ void vendor_load_persist_properties() {
     std::string product = GetProperty("ro.product.vendor.device", "");
     if (product.find("clover") != std::string::npos) {
         std::string hw_device;
-
         char const* hw_id_file = "/sys/devices/virtual/graphics/fb0/msm_fb_panel_info";
 
+        property_override_triple("ro.product.name", "ro.product.system.name",
+                                 "ro.product.vendor.name", "clover");
         ReadFileToString(hw_id_file, &hw_device);
         if (hw_device.find("NT51021_BOE_BOE10") != std::string::npos) {
             property_override("persist.sys.fp.vendor", "fpc");
             property_override("ro.board.variant", "d9p");
             property_override("vendor.display.lcd_density", "265");
-            property_override_dual("ro.product.model", "ro.vendor.product.model", "MI PAD 4 PLUS");
+            property_override_triple("ro.product.model", "ro.product.system.model",
+                                     "ro.product.vendor.model", "MI PAD 4 PLUS");
 
             property_override(
                     "persist.vendor.audio.calfile0",
@@ -144,7 +153,8 @@ void vendor_load_persist_properties() {
             property_override("persist.sys.fp.vendor", "none");
             property_override("ro.board.variant", "d9");
             property_override("vendor.display.lcd_density", "320");
-            property_override_dual("ro.product.model", "ro.vendor.product.model", "MI PAD 4");
+            property_override_triple("ro.product.model", "ro.product.system.model",
+                                     "ro.product.vendor.model", "MI PAD 4");
 
             property_override(
                     "persist.vendor.audio.calfile0",
@@ -191,17 +201,17 @@ void vendor_load_properties() {
     {
         std::string region = GetProperty("ro.boot.hwc", "");
 
+        property_override_triple("ro.product.name", "ro.product.system.name", "ro.product.vendor.name", "whyred");
+
         if (region.find("CN") != std::string::npos || region.find("Global") != std::string::npos || region.find("GLOBAL") != std::string::npos)
         {
-            property_override_dual("ro.product.model", "ro.vendor.product.model", "Redmi Note 5");
-            property_override_dual("ro.product.odm.model", "ro.product.system.model", "Redmi Note 5");
-            property_override_dual("ro.product.vendor.model", "persist.vendor.camera.exif.model", "Redmi Note 5");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.product.vendor.model", "Redmi Note 5");
+            property_override_dual("ro.product.odm.model", "persist.vendor.camera.exif.model", "Redmi Note 5");
         }
 	else
         {
-            property_override_dual("ro.product.model", "ro.vendor.product.model", "Redmi Note 5 Pro");
-            property_override_dual("ro.product.odm.model", "ro.product.system.model", "Redmi Note 5 Pro");
-            property_override_dual("ro.product.vendor.model", "persist.vendor.camera.exif.model", "Redmi Note 5 Pro");
+            property_override_triple("ro.product.model", "ro.product.system.model", "ro.product.vendor.model", "Redmi Note 5 Pro");
+            property_override_dual("ro.product.odm.model", "persist.vendor.camera.exif.model", "Redmi Note 5 Pro");
         }
 
         // Set hardware revision

@@ -525,12 +525,6 @@ vendor/lib64/libOmxQcelp13Dec.so|5a8e892912cd56c74b72420ea4fea62918bf260e
 vendor/lib64/libOmxWmaDec.so|12f994f034be6249acf8f25306bce4a38405e099
 vendor/lib64/libmm-color-convertor.so|d7404046e5863a87922b35c3ff3edc5e76d6c249
 
-# Perf - from LA.UM.8.6.2.r1-08600-89xx.0
-vendor/lib64/libadaptlaunch.so|cf784401fc827e5195d595a6d855ec89ea8c22bf
-vendor/lib64/libappclassifier.so|d5956c2dc9344ddcca0e78d84c393320c2e0cc97
-vendor/lib64/libgameoptfeature.so|b135489d253f0a8d7884238fe7887eb85b87745d
-vendor/lib64/liblearningmodule.so|a9390d0ef1ec82c97a61035ec686c1d094fdca98
-
 # Peripheral - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/pm-proxy|8e159d1fb25f5ee24cf94be8534b3bb8891831bc
 vendor/bin/pm-service|951e322c67132fe8826648e4fda9ddf5e4304e8a

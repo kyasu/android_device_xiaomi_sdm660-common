@@ -7,11 +7,6 @@
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
 
-# Board
-PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_BOARD_PLATFORM := sdm660
-OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
-
 # A/B
 ifeq ($(ENABLE_AB), true)
 AB_OTA_UPDATER := true
@@ -25,11 +20,7 @@ TARGET_NO_RECOVERY := true
 endif
 
 # APEX image
-ifeq ($(ENABLE_APEX), true)
 DEXPREOPT_GENERATE_APEX_IMAGE := true
-else
-OVERRIDE_TARGET_FLATTEN_APEX := true
-endif
 
 # Broken Files/Headers
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -49,8 +40,8 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 
-# FM
-AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Audio
 AUDIO_DISABLE_SWAP_CHANNELS := true
@@ -73,6 +64,7 @@ TARGET_BOOTLOADER_BOARD_NAME := sdm660
 TARGET_NO_BOOTLOADER := true
 
 # Board
+BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := sdm660
 
 # Build Rules
@@ -95,6 +87,9 @@ TARGET_USES_HWC2 := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_ION := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
+# FM
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
@@ -143,12 +138,6 @@ TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 
-# Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
-
-# Keymaster
-TARGET_PROVIDES_KEYMASTER := true
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
@@ -183,10 +172,8 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/properties/vendor.prop
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_USES_QCOM_BSP := false
 
 # RIL
-PROTOBUF_SUPPORTED := true
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
@@ -194,9 +181,6 @@ include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
-
-# SurfaceFlinger
-TARGET_USE_AOSP_SURFACEFLINGER := true
 
 # USB
 TARGET_USES_USB_GADGET_HAL := true

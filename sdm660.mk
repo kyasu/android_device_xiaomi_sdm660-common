@@ -4,32 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Product
-PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_BOARD_PLATFORM := sdm660
-TARGET_BOARD_PLATFORM := sdm660
-OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
-
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-$(call inherit-product-if-exists, build/target/product/embedded.mk)
-
 # Enable updating of APEXes
-ifeq ($(ENABLE_APEX), true)
-TARGET_SUPPORTS_UPDATABLE_APEX := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-$(call inherit-product-if-exists, vendor/prebuilts/config/apex.mk)
-else
-PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
-endif
 
-# Disable APEX compression
 PRODUCT_COMPRESSED_APEX := false
 
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Common Tree Path
 COMMON_PATH := device/xiaomi/sdm660-common
@@ -128,9 +109,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
-# Boot animation
-TARGET_BOOTANIMATION_SIZE := 1080p
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
@@ -186,6 +164,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libqdMetaData \
+    libqdMetaData.system \
+    libtinyxml \
     vendor.display.config@1.0 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
@@ -194,6 +175,10 @@ PRODUCT_PACKAGES += \
 # DeviceDoze
 PRODUCT_PACKAGES += \
     DeviceDoze
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+   DeviceSettings
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
@@ -212,9 +197,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
-
-# GMS
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # GPS / Location
 PRODUCT_PACKAGES += \
@@ -387,9 +369,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
     $(COMMON_PATH)/overlay-lineage
 
-# RRO configuration
-TARGET_USES_RRO := true
-    
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -476,7 +457,7 @@ PRODUCT_COPY_FILES += \
 
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    $(COMMON_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 # QMI
 $(call inherit-product, external/json-c/Android.configure.mk)
@@ -558,11 +539,6 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
-# Tin
-PRODUCT_PACKAGES += \
-    tinyxml2 \
-    libxml2 
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock
@@ -619,8 +595,3 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(COMMON_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
-
-# DeviceSettings
-PRODUCT_PACKAGES += \
-   DeviceSettings
-

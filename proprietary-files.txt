@@ -535,6 +535,14 @@ vendor/lib64/libOmxQcelp13Dec.so|5a8e892912cd56c74b72420ea4fea62918bf260e
 vendor/lib64/libOmxWmaDec.so|12f994f034be6249acf8f25306bce4a38405e099
 vendor/lib64/libmm-color-convertor.so|d7404046e5863a87922b35c3ff3edc5e76d6c249
 
+# Mlipay - from wayne V9.7.4
+vendor/bin/mlipayd@1.1|13e9167024fd2dc49a56ed27e583057408dcc1eb
+vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
+vendor/lib64/libmlipay.so|6cacf75f4a7eb50cbb7de384a3cfc1702a3a5f4a
+vendor/lib64/libmlipay@1.1.so|4dfa016779bcba8da2ff293e5112c678044c6474
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|d0bb854210433066945f9d6e7943d08a8435e746
+vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|785984e3c3b30671b78624484899dd418979cb56
+
 # Peripheral - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/pm-proxy|8e159d1fb25f5ee24cf94be8534b3bb8891831bc
 vendor/bin/pm-service|951e322c67132fe8826648e4fda9ddf5e4304e8a

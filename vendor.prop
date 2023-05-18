@@ -221,7 +221,6 @@ telephony.lteOnCdmaDevice=1
 debug.egl.hw=0
 debug.enable.sglscale=1
 debug.sf.recomputecrop=0
-ro.hwui.render_ahead=3
 ro.config.avoid_gfx_accel=true
 
 # Sensors

@@ -302,15 +302,15 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|223a9268bd92bd80dab3df02fbef38ea86bc
 # EIS - from LA.UM.10.2.1.r1-03400-sdm660.0
 vendor/lib/libmmcamera_ppeiscore.so|072a47bac12e7cd9737ca235b4f254989dc013f0
 
-# ESE - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|4d37983497445a3fcc220c6d2b4b29d1bd84165c
+# ESE - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|63bff7d1ac937d6dea6fcb3ddb2acbbdcad06eff
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
-vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|dd96aea9eed7b847654a47ba91ad2581ce73db80
-vendor/lib/vendor.qti.esepowermanager@1.0.so|ad54ff65ee5b06f9d46eada0e65afd99fa6d8dbf
-vendor/lib/vendor.qti.esepowermanager@1.1.so|1896e0d99e5a1d04c36200ea7dffc2473badef84
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|3f8355ee73dd8d046361c08be6edc6f36e23f9d1
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|10c7bbe1874d01b4b228d9f4d278d2553f2e45e7
-vendor/lib64/vendor.qti.esepowermanager@1.1.so|820eb31f2aa8997897c6754633f7e6be32a5e175
+vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|beca19cae1b435429bc213f02e114310d09d6095
+vendor/lib/vendor.qti.esepowermanager@1.0.so|ceed7bda5b4d97a62244aaeb6645c4dff5eb93ba
+vendor/lib/vendor.qti.esepowermanager@1.1.so|d38c5c285b7c48bf99a2dedb345e08db808e0611
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|57784f09c1c5ddebcfc2499f519dddabca0b83a3
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|2ef4dcdc5c3c93e757bbcb3ce7db1375fa8e1883
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|9722d849e3fc38ba3aa7828cd47133856eb82cd0
 
 # FM - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 system_ext/lib64/fm_helium.so|d24c1e33e778867de8af036b97249a5e555e4d8e
@@ -819,8 +819,8 @@ vendor/lib/libstreamparser.so|3dacaede7656beaca862b995b88d3d8b40f50116
 vendor/lib64/libUBWC.so|0da520fc45ca290fc66d1878149b63e7e41ad0a3
 vendor/lib64/libstreamparser.so|c4ee3b6372c38d9384779fd1eedf9d796d65fa70
 
-# Wifi - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/bin/cnss-daemon|30f60aee128a6ba8c3e9c140b792529e824441c0
+# Wifi - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/cnss-daemon|60f5ddae32675b6f4587f5fc07c1cf0d23fa8611
 
 # Common Camera - from Pie
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d

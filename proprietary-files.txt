@@ -813,12 +813,6 @@ vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
 vendor/bin/time_daemon|6dca9af6adbe563783ff8d93f165f7e8ab92828c
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 
-# Universal Bandwidth Compression (UBWC) - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/lib/libUBWC.so|7269f5e1c914d36f995517c55632a6ae18229a9a
-vendor/lib/libstreamparser.so|3dacaede7656beaca862b995b88d3d8b40f50116
-vendor/lib64/libUBWC.so|0da520fc45ca290fc66d1878149b63e7e41ad0a3
-vendor/lib64/libstreamparser.so|c4ee3b6372c38d9384779fd1eedf9d796d65fa70
-
 # Wifi - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/cnss-daemon|60f5ddae32675b6f4587f5fc07c1cf0d23fa8611
 

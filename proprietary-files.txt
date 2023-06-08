@@ -529,83 +529,87 @@ vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
 vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Graphics - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-lib/libsdm-disp-apis.so|68c45b0a37115ffe0bc503873cbc3b6a9ae913d9
-lib64/libsdm-disp-apis.so|131b769dcda8e95cd999f912a9fa48636c792092
-vendor/lib/egl/eglSubDriverAndroid.so|bc219799bedf174a3cd7a90511d5a53acf8d0e0a
-vendor/lib/egl/libEGL_adreno.so|5611a6caa50562757d812553642a0a45fcc12668
-vendor/lib/egl/libGLESv1_CM_adreno.so|446279f43811de885507bdd3d6491da8f0cfd26d
-vendor/lib/egl/libGLESv2_adreno.so|d7e04bab06f7ce5f61f99c416d89254c49ddbf52
-vendor/lib/egl/libq3dtools_adreno.so|49c03ff3c14e17af525c66f5cf017504e689f54e
-vendor/lib/egl/libq3dtools_esx.so|8c16cd671db573a947aec5261a588ba85af21455
-vendor/lib/libadreno_utils.so|46ccf277d257b0bed27138f948e0507d72e227ee
-vendor/lib/libC2D2.so|7ffbb30a7b99d532eaf20b4a117fd908f1acdc01
-vendor/lib/libc2d30_bltlib.so|483ec30a1daf5c3d5a5bd1e63570ad6489fe3af0
-vendor/lib/libCB.so|a48301d2d624c355198a51d7a72e9774240b2b39
-vendor/lib/libgpudataproducer.so|1f0510f83dd094ca2accb132b32921db5310ec90
-vendor/lib/libgsl.so|a8a25ce86ba363e685f2b41dcb442c563c93f987
-vendor/lib/libllvm-glnext.so|cd94d3b17aedb0a643fa42526eb49b6782db74af
-vendor/lib/libllvm-qcom.so|a9ed4f01e98a35cbf8bc8b0e666c124ce0485b37
-vendor/lib/libOpenCL.so|84bf30e06f738179363c71b8ffc6864042fe4527
-vendor/lib/librs_adreno.so|f21ef747165dea556d9213d024dc0dd003021fff
-vendor/lib/libVkLayer_q3dtools.so|d544c8c691bb7e269b54ad3ca364fb5cc3ccb857
-vendor/lib64/egl/eglSubDriverAndroid.so|0628406f205e9b64b21626a8d5c780a652d195c6
-vendor/lib64/egl/libEGL_adreno.so|d602670a45e49916be5e0c2c60a8f0fe3f526791
-vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
-vendor/lib64/egl/libGLESv2_adreno.so|5418f6079f414f43ed27288c9b2d1697fc48563d
-vendor/lib64/egl/libq3dtools_adreno.so|189b9c3d400c6a98c87582b8df0910530cba6d44
-vendor/lib64/egl/libq3dtools_esx.so|db1b3181bbafd2b21e19b8f8d7b67f093cec5e12
-vendor/lib64/libadreno_utils.so|803807693a6e386628a1a0d96d7fb72c937d5fce
-vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
-vendor/lib64/libc2d30_bltlib.so|9fe052fbb5a47b9d256c7a2ea849f86fed0b6fcf
-vendor/lib64/libCB.so|b8227df74a7bdb8b3c3aa536899aef10b553d51d
-vendor/lib64/libgpudataproducer.so|70fad7d3622d07f2a2e0533be16ce9c628225986
-vendor/lib64/libgsl.so|060f32059bf1bf2289ad744402a1ae3860d521c5
-vendor/lib64/libllvm-glnext.so|a141fd598c18f1f53c06a99831fe53b4bb84ada4
-vendor/lib64/libllvm-qcom.so|dbb82d23cc3ffbff1873fd7b9ae11a3803fcdbe6
-vendor/lib64/libOpenCL.so|b11edb1001dd25079e9f197fcd3910285cba0311
-vendor/lib64/librs_adreno.so|766453d2e3a4ab4a01908b78240abaa4f1b73d21
-vendor/lib64/libVkLayer_q3dtools.so|e907764fd273e64435814f3024881bf5e2974d29
+# Graphics - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/egl/eglSubDriverAndroid.so|3e1c3838ef671984e39b834a366d8ae2f8bb232e
+vendor/lib/egl/libEGL_adreno.so|1e507b9eee9f7c7e320ad89a1a62ca1104ed887f
+vendor/lib/egl/libGLESv1_CM_adreno.so|c69609fa91c8150224a8665b8bec777629c5e93f
+vendor/lib/egl/libGLESv2_adreno.so|9b88852f7cd879f1dc713e3bd9b1f35941f1f6e5
+vendor/lib/egl/libq3dtools_adreno.so|b25bd28f3582256a2c7c4dfae2a1258fb7b8cb40
+vendor/lib/egl/libq3dtools_esx.so|1629bfb052e97c88c6a59d1888b16f4466d58b75
+vendor/lib/libadreno_utils.so|6c4e73e6090d302c3a4dcb66f4ef60a1d7468f95
+vendor/lib/libC2D2.so|54eb3a8f15ed9cc7d1c815dc4125612052bbb4de
+vendor/lib/libc2d30_bltlib.so|560063f823ba59465233fd19fe23b6d3e63209c7
+vendor/lib/libCB.so|999a06d3a377ec9a56fc0686a7a4929533c5a7ce
+vendor/lib/libgpudataproducer.so|eb59ac9afd06e636e9ba29af1dbdc4b0176c3534
+vendor/lib/libgsl.so|4bf8f91a5e3215cdf0e68e689c739a6024982380
+vendor/lib/libllvm-glnext.so|b2c39b452d975f242b19e9a945f86b4bacd8d58a
+vendor/lib/libllvm-qcom.so|0b1ab96746f8d4186f775ad5fdefe18f48dcd690
+vendor/lib/libOpenCL.so|bdeec9074807de44856cd573b84ab72089202c31
+vendor/lib/librs_adreno.so|82b6fbdac2b0260b5628bdd51f2260473c9a4f86
+vendor/lib/libVkLayer_q3dtools.so|16bcaf0c7235228f6186b155df637b7955467849
+vendor/lib64/egl/eglSubDriverAndroid.so|485844f06b144ec82aa6418a3c273c22d832bc6b
+vendor/lib64/egl/libEGL_adreno.so|58b069ece70a54f357f355a1fe61d87d64ed5796
+vendor/lib64/egl/libGLESv1_CM_adreno.so|7fbdf3f0ae57479be477d37c55078087f35405cb
+vendor/lib64/egl/libGLESv2_adreno.so|99d14ff10b115c60786d7df1b52b14dc16081ccd
+vendor/lib64/egl/libq3dtools_adreno.so|827cb4c49585cc266300165763ad24c4e7798f17
+vendor/lib64/egl/libq3dtools_esx.so|16c2adfce7ca146f9011b4cfcc432ebf5c31e09c
+vendor/lib64/libadreno_utils.so|af1521fc558947c2d303a31aa26d5eed1476ba54
+vendor/lib64/libC2D2.so|851d2be28766ba0a3324c6d8211ea04aa4be319f
+vendor/lib64/libc2d30_bltlib.so|bb495ec7d4f9617f54c6a5e9804193aabccdcee2
+vendor/lib64/libCB.so|53c5cdc9ae00348379f980fa20c9db0456a3d87c
+vendor/lib64/libgpudataproducer.so|ff73dbc5a0aeb26d27d5f6e9688ba1a798409251
+vendor/lib64/libgsl.so|84ee52e9f30d59c371dffc75827236bb832d9fb8
+vendor/lib64/libllvm-glnext.so|0eed402d2d63e6e92878162c5e7a8f0989e6ddf2
+vendor/lib64/libllvm-qcom.so|4a86fcdb10e6e18d6da438f4a7eeaffb033f44b9
+vendor/lib64/libOpenCL.so|646a1d784073d5f4c71e5e4b158686ed307e4531
+vendor/lib64/librs_adreno.so|967ac0c16d936ae432f081151e1fe10cec647011
+vendor/lib64/libVkLayer_q3dtools.so|1197275b24be168f677e75f76bd52c950e82af7c
 
-# Graphics (Dependency) - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/lib/libtinyxml.so|16853d57ef82d59b48506857fc80b149ba3b3543
-vendor/lib64/libtinyxml.so|da9f11e9edc92bb6d5e8f64f4fbbaf8019b8587a
+# Graphics (HDR) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/libhdr_tm.so|4bdfdd3e7f0fef03559ce030b07bf6c36f9ea52f
+vendor/lib64/libhdr_tm.so|66f312694a60e9f917a6aafa04563b9c376b1411
 
-# Graphics (HDR) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/lib/libhdr_tm.so|a2292af314f9fa86b9ec2bb11ad72bf85e959842
-vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
+# Graphics (Postprocessing) - from LA.QSSI.13.0.r1-09700-qssi.0
+system_ext/lib64/libsd_sdk_display.qti.so|01a9cc49206eac5e300574ec243e68d768ae09cc
+system_ext/lib64/libsdm-disp-apis.qti.so|5cca2b71f2e01f0da05b6644e4d56f627950a717
+system_ext/lib64/vendor.display.color@1.0.so|3413eb981952145e011e39150a7fe92f93de77ba
+system_ext/lib64/vendor.display.color@1.1.so|b1ef339039e041bff637501fd1a8cfd9b2da1a53
+system_ext/lib64/vendor.display.color@1.2.so|ea239b6dd25ab601597e715bce10835dbc041003
+system_ext/lib64/vendor.display.postproc@1.0.so|6c602769fd5b4bfa0672afe886760dd4ac13ed7b
 
-# Graphics (Postprocessing) - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/bin/hw/vendor.display.color@1.0-service|815cc36f3722fbfb5fdd52f6678309d207888038
-vendor/bin/mm-pp-dpps|a265b90d727a3a8716796bbfc632e0307172b3dc
+# Graphics (Postprocessing) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|1f1d5cba21378c81f1c23c78d987d06c7613b794
+vendor/bin/mm-pp-dpps|28414b7de56d3cf3ca584d4e61fde28348eb03d1
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib/vendor.display.color@1.0.so|717da2c9f8b5b2ff99110495a3a6603b84cf1d45
-vendor/lib/vendor.display.color@1.1.so|2e5e1610b391a80ebb6f4901f337484f411fb206
-vendor/lib/vendor.display.color@1.2.so|3a62e543a7b8f37a6d9996bf0c7d5c17ae71e77c
-vendor/lib/vendor.display.postproc@1.0.so|b0fab559d068fb27a2530e012847cd15f3dfc342
-vendor/lib64/libdisp-aba.so|c4d6c0afc8878f6bd6bb59b857ef89a498ec274c
-vendor/lib64/vendor.display.color@1.0.so|f53d722166d8fa11792d538d8b89a83473bd153b
-vendor/lib64/vendor.display.color@1.1.so|ae4ed743391c15c0512f4fc34d23b82264646856
-vendor/lib64/vendor.display.color@1.2.so|56ad6991270d7c27d8a4ee00f16a9d64e0a1f548
-vendor/lib64/vendor.display.postproc@1.0.so|fda412bf79f5ff9d2e46b137c4b6b4ceead7512f
+vendor/lib/vendor.display.color@1.0.so|46149221b92b5981c81536b2e37e81684ee55aae
+vendor/lib/vendor.display.color@1.1.so|08b81d5255108a2f918f20b00fefeb730d08c740
+vendor/lib/vendor.display.color@1.2.so|dc855f344503d816dcacc7ec3e704fe0ff51d3be
+vendor/lib/vendor.display.postproc@1.0.so|f36cc390d03a152874fd7f12c2c36cf9d9c2dffc
+vendor/lib64/libdisp-aba.so|c20110306b9948d8ba143e7e9cc5c897a05aabf0
+vendor/lib64/vendor.display.color@1.0.so|e8bbe46ddd63cae90186f326934c68b4e3a6c8cb
+vendor/lib64/vendor.display.color@1.1.so|9b3e59308c98573bba8682d59f39f28c037629c9
+vendor/lib64/vendor.display.color@1.2.so|4130d4bf9fd9da125afd0c742c095df7329024dd
+vendor/lib64/vendor.display.postproc@1.0.so|ed6adca9ea4cb3db1e1f7d27b657115b2d37e0aa
 
-# Graphics (SDM) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
--vendor/lib/libsdm-disp-vndapis.so|efe67908e419b8db34068896c9b45cdf9b4e535b
--vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
-vendor/lib/libqseed3.so|1a67e4c3e7d904dc3d3af35c0f516fe13ed88bcb
-vendor/lib/libsdm-color.so|43bfdb63147740a728e704b35c659301bca7ede2
-vendor/lib/libsdm-diag.so|a2b532158e12562e1fb74695bf829de1b94c2cde
-vendor/lib/libsdmextension.so|499d9b9be4fb53b2410f65976ea94f2c154b9f11
-vendor/lib/libtinyxml2_1.so|aec76b36890b163f9cf1be594d6b082887f0a9b2
-vendor/lib64/libqseed3.so|a858c83fb38ef7acd21ea0a23f36ef22ba8c06ef
-vendor/lib64/libsdm-color.so|69cea5fdff6c3ef05a17390b9031d9e0054bc2ad
-vendor/lib64/libsdm-diag.so|2ba98c20d05e34501a4423f55bec4da3f27711ad
-vendor/lib64/libsdmextension.so|2d7469450bfaadb304a8080e384f72601442d078
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+# Graphics (SDM) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+lib/libsdm-disp-apis.so|2164647cdd4e72e8fba82dd6a01987c778359f0c
+lib64/libsdm-disp-apis.so|a5bc0c448966e5ba8447967dc02adda737b4ceb5
+vendor/lib/libqseed3.so|fe2137e5af58c0440a350fcaee5b7fe3301932ea
+vendor/lib/libsdm-color.so|44f7569e5ffa853c4eedbb4d2e5030f263f1a78a
+vendor/lib/libsdm-diag.so|8f91965bf5b85fe9e5689ff893a8f14ec0677d45
+-vendor/lib/libsdm-disp-vndapis.so|e716a5a73ad0efce92cfd455698f66b63d7f6b01
+vendor/lib/libsdmextension.so|5e73efecee7a68f015cdc67ef403ab5f7ab18f16
+vendor/lib/libtinyxml2_1.so|07eafb511a2b1a4434a3a258c878330c2807cce8
+vendor/lib64/libqseed3.so|db4a9ba67a673f2514fde4f0d65cbefb42035016
+vendor/lib64/libsdm-color.so|ad6376cf976fbd15dfc08586218bfeef4fc98e45
+vendor/lib64/libsdm-diag.so|e510654945d2da0f347803d39883ceecbdcd0792
+-vendor/lib64/libsdm-disp-vndapis.so|e62d7364204c7dd874b3f89231f0bf381f3b614e
+vendor/lib64/libsdmextension.so|4e989ab2990303e1f64168ad2ccfb2858dcb967a
+vendor/lib64/libtinyxml2_1.so|e857c0b21b031625e7f3c2735a31330706e05b6e
 
-# Graphics (Vulkan) - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/lib/hw/vulkan.adreno.so|2a4547cfca3fd28b8f9ba3141165ca0ca0f52ea5
-vendor/lib64/hw/vulkan.adreno.so|74f3ef6831ebc3c6c5f3ebcadc7009abe7fc152b
+# Graphics (Vulkan) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/hw/vulkan.adreno.so|7bc74a78ad5dcceed492a1a71c9f4792a9871c19
+vendor/lib64/hw/vulkan.adreno.so|c3c0c344724bc1810f10b094b7f6c496ad2c86c5
 
 # IRQ balance - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/msm_irqbalance|33325d1b5bd1c4fdfa964f638da633ef8ca1ac43

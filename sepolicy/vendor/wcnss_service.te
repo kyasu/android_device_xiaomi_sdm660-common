@@ -4,3 +4,6 @@ allow wcnss_service sysfs:file r_file_perms;
 allow wcnss_service sysfs_net:dir search;
 allow wcnss_service vendor_shell_exec:file { x_file_perms execute_no_trans };
 allow wcnss_service rootfs:dir { read write open };
+
+get_prop(wcnss_service, vendor_wcnss_service_prop)
+set_prop(wcnss_service, vendor_wcnss_service_prop)

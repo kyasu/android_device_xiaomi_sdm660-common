@@ -69,6 +69,14 @@ ro.board.variant                        u:object_r:exported_default_prop:s0
 ro.hwversion                            u:object_r:exported_default_prop:s0
 persist.vendor.slm.enable               u:object_r:exported_default_prop:s0
 
+# Wcnss
+vendor.wlan.bdf.path                    u:object_r:vendor_wcnss_service_prop:s0
+ro.hsm.wifi.bdf.tag                     u:object_r:vendor_wcnss_service_prop:s0
+ro.hsm.board.variant                    u:object_r:vendor_wcnss_service_prop:s0
+ro.hsm.som.variant                      u:object_r:vendor_wcnss_service_prop:s0
+ro.hsm.pcb.vendor                       u:object_r:vendor_wcnss_service_prop:s0
+ro.hon.plat.imager.sensor               u:object_r:vendor_wcnss_service_prop:s0
+
 # Media
 gpu.stats.debug.level                   u:object_r:vendor_default_prop:s0
 

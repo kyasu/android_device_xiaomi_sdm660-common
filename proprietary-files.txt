@@ -316,6 +316,12 @@ system_ext/lib64/vendor.qti.hardware.fm@1.0.so|b1474a14f1a22007e2792c240777470b1
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|09569a8e251c66647cc3f91cad39bae451843076
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|4b327b62fe598a12665c61942e05f516580def62
 
+# Gatekeeper QTI - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|634b7bb3cffcfea34c7be72e4d8e5c902bda5036
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|23c1c647a6bd2b91a97ea48a0e13b273e9d57e45
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|de215e0422b21ba5f21a9aeeaff5fc0b5869be2e
+
 # GPS - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/bin/garden_app|33936daa11e37a2e9d7cc8a6029c043bdf2a8bd5
 vendor/bin/loc_launcher|f170dc02d9046fcde1fc58656b0387773a85e78d
@@ -449,13 +455,23 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6
 # IRQ balance - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
-# Keymaster - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/lib/libkeymasterdeviceutils.so|a0de8c0055d2cfac9202d8eef88854c1e9795ff4
-vendor/lib/libkeymasterprovision.so|c16328226bb07371a4928906bd70888bbee27895
-vendor/lib/libkeymasterutils.so|92e1ccb1916019272de6e291a46b3e0ddb4548a9
-vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
-vendor/lib64/libkeymasterprovision.so|d6c95d3543c707df133d50764f647e5f07adb82b
-vendor/lib64/libkeymasterutils.so|a642ac1202ddddbf62917b6450fa3d7eaf622b6a
+# Keymaster - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|6fdf7c3033c2738eeecb33f6a625526873c6c325
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|53df18bdec6e2641368407c1ef5aa99899d7a23f
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+# vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a4939ac6fa1be764110d573cdeb49f14eed80f44
+vendor/lib/libkeymasterdeviceutils.so|1c176ef4f147fd39704304421cafd2d08766ff58
+vendor/lib/libkeymasterprovision.so|dbc51c3e002ab139a6c6c4932a024a7404d8bed5
+vendor/lib/libkeymasterutils.so|827dd23eac41006c510d77fa0833d2f91eddb845
+vendor/lib/libqcbor.so|1332c20f669eeeb3b99b2f0907f3e5ec13817477
+vendor/lib/libqtikeymaster4.so|4083c9a24e5a6379efadbf73bd43778c17442a4b
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|122c6f34831b3e2f32e0b3140e1044fba3619bfc
+vendor/lib64/libkeymasterdeviceutils.so|2fd608b63b1fb2ef6b940378c3319f1e85960a76
+vendor/lib64/libkeymasterprovision.so|644aaee0573b5d0edba6fe5a193de4e0d67deb28
+vendor/lib64/libkeymasterutils.so|40a8cbd82dcf8496db39511f4d6f2e93b63de439
+vendor/lib64/libqcbor.so|dc6b0d7ac44d7a8de35403cc92ee4417b154db5d
+vendor/lib64/libqtikeymaster4.so|0df7c63aa868c62956a03bce096bb5bfee0c811e
 
 # Listen - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/lib/liblistenjni.qti.so|54159c7706bd174def457432e929c3867c8a93e7

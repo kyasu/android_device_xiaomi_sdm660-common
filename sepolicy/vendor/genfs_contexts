@@ -1,5 +1,8 @@
 # Battery
 genfscon sysfs /devices/platform/soc/c175000.i2c/i2c-1/1-0062                                                                                        u:object_r:sysfs_battery_supply:s0
+genfscon sysfs /class/power_supply/battery/battery_charging_enabled                                                                                  u:object_r:sysfs_battery_supply:s0
+genfscon sysfs /class/power_supply/battery/charging_enabled                                                                                          u:object_r:sysfs_battery_supply:s0
+genfscon sysfs /class/power_supply/battery/input_suspend                                                                                             u:object_r:sysfs_battery_supply:s0
 
 # Battery Saver
 genfscon sysfs /module/battery_saver/parameters/enabled                                                                                              u:object_r:sysfs_battery_saver:s0

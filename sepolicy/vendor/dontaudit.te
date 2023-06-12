@@ -3,10 +3,12 @@
 dontaudit untrusted_app ashmem_device:chr_file open;
 
 dontaudit adbd self:capability sys_admin;
+dontaudit blkid self:capability sys_admin;
 dontaudit blkid_untrusted self:capability sys_admin;
 dontaudit crash_dump self:capability sys_admin;
 dontaudit extra_free_kbytes self:capability sys_admin;
 dontaudit fsck self:capability sys_admin;
+dontaudit hal_usb_default self:capability sys_admin;
 dontaudit hal_wifi_supplicant_default self:capability sys_admin;
 dontaudit installd self:capability kill;
 dontaudit irsc_util self:capability sys_admin;
@@ -18,7 +20,8 @@ dontaudit thermal-engine self:capability sys_admin;
 dontaudit toolbox self:capability { kill sys_admin };
 dontaudit ueventd self:capability sys_admin;
 dontaudit usbd self:capability sys_admin;
-dontaudit vdc self:capability sys_admin;
+dontaudit vdc self:capability { kill sys_admin };
+dontaudit vendor_dpmd self:capability sys_admin;
 dontaudit vendor_init-qti-dcvs-sh self:capability sys_admin;
 dontaudit vendor_modprobe self:capability sys_admin;
 dontaudit vendor_msm_irqbalanced self:capability sys_admin;

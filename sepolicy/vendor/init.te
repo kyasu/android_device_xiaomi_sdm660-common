@@ -16,10 +16,11 @@ allow init bt_firmware_file:filesystem { getattr };
 allow init apex_metadata_file:lnk_file { read };
 
 # Vibrator
-allow init sysfs_leds: file { rw_file_perms };
+allow init sysfs_leds:file { rw_file_perms };
 
 allow init sysfs:file { setattr };
 allow init debugfs_tracing_debug:dir { mounton };
+allow init sysfs_emmc_host:file rw_file_perms;
 
 allow init system_file:file mounton;
 allow init {

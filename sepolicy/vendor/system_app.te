@@ -19,5 +19,10 @@ allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
 allow system_app zygote:unix_stream_socket { getopt };
 
+# neverallow and harmless
+dontaudit system_app time_daemon:unix_stream_socket { connectto };
+
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop);
+get_prop(system_app, qemu_hw_prop);
+hal_client_domain(system_app, hal_mlipay);

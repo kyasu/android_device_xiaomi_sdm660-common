@@ -1,1 +1,1 @@
-allow odrefresh self:capability { kill sys_admin };
+dontaudit odrefresh self:capability { kill sys_admin };

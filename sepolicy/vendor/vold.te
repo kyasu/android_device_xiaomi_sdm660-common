@@ -1,3 +1,5 @@
 allow vold sysfs_mmc_host:file write;
 allow vold sysfs_mmc_host:file create_file_perms;
 allow vold vendor_apex_file:file { getattr };
+allow vold mnt_vendor_file:dir { ioctl open read };
+allow vold cache_block_device:blk_file { getattr };

@@ -5,6 +5,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi_sdm660                             u:object_r:hal_fingerprint_sdm660_exec:s0
 /(vendor|system/vendor)/bin/init\.goodix\.sh                                                                                      u:object_r:hal_fingerprint_sdm660_exec:s0
 
+# Block
+/sys/devices/platform/soc/c0c4000.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mq/0/nr_tags(/.*)?                                  u:object_r:sysfs_emmc_host:s0
+
 # Camera
 /data/misc/camera                                                                                                                 u:object_r:camera_data_file:s0
 

@@ -161,7 +161,7 @@ persist.vendor.ims.disableIMSLogs=1
 persist.vendor.qti.telephony.vt_cam_interface=2
 persist.vendor.radio.enable_temp_dds=true
 persist.vendor.radio.force_on_dc=true
-ril.subscription.types=RUIM
+ril.subscription.types=NV,RUIM
 
 # SELinux
 ro.build.selinux=1

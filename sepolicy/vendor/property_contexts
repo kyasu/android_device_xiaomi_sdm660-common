@@ -37,6 +37,9 @@ vendor.camera.eis.gyro_name                 u:object_r:vendor_camera_prop:s0
 vidc.enc.dcvs.extra-buff-count              u:object_r:vendor_camera_prop:s0
 video.disable.ubwc                          u:object_r:vendor_camera_prop:s0
 
+# Cnd
+persist.vendor.iwlan.logging.logcat u:object_r:vendor_cnd_vendor_prop:s0
+
 # Dirac
 persist.audio.dirac.                    u:object_r:dirac_prop:s0
 

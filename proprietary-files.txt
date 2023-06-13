@@ -81,16 +81,22 @@ vendor/lib64/soundfx/libshoebox.so|37c60f9b0c8d451e118c351215f8234d7f6b82af
 # Audio FX modules - from LA.UM.8.2.r1-07500-sdm660.0
 vendor/lib/soundfx/libmisoundfx.so|569ee2df586e95116b79cfb3d89429f2032a7a76
 
-# Alarm - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
--product/app/PowerOffAlarm/PowerOffAlarm.apk|3b965f7f7edf7974dcf2f6b60ee72144ecb17dd2
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|c97f4fd088a7e3ae3f1c6ff9372fdaf9680ebe08
-vendor/bin/power_off_alarm|6b5d03e569488b3ab06f62810b1bb48ec1e52a39
+# Alarm - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|3b28fc11b84dea890fc57c2d0d92e0b1ceb047f2
+system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|53c8e43e6ab1db1c3824626b1503b92991c24e7e
+system_ext/lib64/vendor.qti.hardware.alarm@1.0.so|1dc1a86f4061cba58460422b0a63d24b87e23921
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|461a834ada2a9f9feb8421d1dba11f85842b9772
+vendor/bin/power_off_alarm|911a408ebcfe448f697225e4c39573704c41544f
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|b69cf46ee3e4e8ec0461804491e95be6757b36a4
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|464f1137f33a50f1f6ca8114969dad278a3b3cbf
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|7de458829e1d4f5157b291dab5fdb25546df08fc
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|6918a6a6d66509568ced685917c891038cec3d13
 
-# ANT+ - from S62Pro
-vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
+# ANT+ - from LA.QSSI.13.0.r1-09700-qssi.0
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|ef2c19734749bee9662a6f6e1cd924387c5bbb9c
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bdd0b1538f514f237c2ed3915d755cdbd5e2743
+
+# ANT+ - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|20cb53585f9cc23eb44c37d026a97dfcae84d64a
 
 # Bluetooth - from S62Pro
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
@@ -110,10 +116,11 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|cfc982fd153084781f
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
 
-# Capability Configstore - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|81be3e1c39280c1bed769ff4e3bee25b4ef1195e
+# Capability Configstore - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+-system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar|17968ba47efae893689efba17b9d75a8b22bc68c
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|a24eb9dbb746b62bcb40e438cf0063dad6ca5f87
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|12d4edcd852196a531f688ed74d86ea10c4acb43
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|d73d79009877d54a7f9014d3e0fdc41339b07ef1
 
 # CDSP - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 system_ext/lib/libcdsprpc_system.so|78b3fc57248a97ad0498a070487d58875aa2fe3b
@@ -130,8 +137,8 @@ vendor/lib64/libcdsp_default_listener.so|96d722b324c4d1a554d0f018d8cbbb8c4e4519b
 vendor/lib64/libfastrpc_utf_stub.so|15243b9539bb74069d6ee59bd70340b0ea0ec338
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
-# Charger - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/bin/hvdcp_opti|45f500aa4816c87de222ee7eb33655f0e83e392c
+# Charger - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hvdcp_opti|f796b2851846d4f24424a4a1c4fd97bada885bcf
 
 # CNE - from ginkgo V12.5.1.0.RCOCNXM
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|e71f1a060bc65eb373beb6d33158c0e2b37e2a70

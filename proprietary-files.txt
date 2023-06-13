@@ -457,70 +457,75 @@ vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
 vendor/lib64/libkeymasterprovision.so|d6c95d3543c707df133d50764f647e5f07adb82b
 vendor/lib64/libkeymasterutils.so|a642ac1202ddddbf62917b6450fa3d7eaf622b6a
 
-# Listen -  from S62Pro RKQ1.210406.002
-vendor/lib/hw/sound_trigger.primary.sdm660.so|5464b9658c9b819e18f3ad6703471278521a79d1
-vendor/lib64/hw/sound_trigger.primary.sdm660.so|7f93fbb078d8ed2b47ab57e68595a80916ce5f95
+# Listen - from LA.QSSI.13.0.r1-09700-qssi.0
+system_ext/lib/liblistenjni.qti.so|54159c7706bd174def457432e929c3867c8a93e7
+system_ext/lib/liblistensoundmodel2.qti.so|d49dd5bb4f1247422c4654d98af43c75fa8ad18c
+system_ext/lib64/liblistenjni.qti.so|83327fb3590e0269b6c8233591a353613216c8da
+system_ext/lib64/liblistensoundmodel2.qti.so|1a828485e0cfe028eb341e10f62a96a7b453b8a0
 
-# Listen - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/lib/libadpcmdec.so|b3ec2cc197b682aa6ae7e1da9c8f25cc1aa75750
-vendor/lib/libgcs-calwrapper.so|a42c20f41b130f65b3530cfbd7a4da95e54b0657
-vendor/lib/libgcs-ipc.so|7f0ce6ca68e04bdb0691ad37f6e923160d965993
-vendor/lib/libgcs-osal.so|4c6d53e8f850fd0e6d3782225717b9fd9639f10c
-vendor/lib/libgcs.so|6713fbebe98a69327805d075a14274ab8360cebf
-vendor/lib/liblistensoundmodel2.so|296bf47af4d22e24bc09a2980ad3deea14dc163c
-vendor/lib/libsmwrapper.so|e194f3f12671c66b5c4547716e501b35f9fe8283
-vendor/lib64/libgcs-calwrapper.so|f7f2b97dcfbe747c60e7434092457b009e69b0c6
-vendor/lib64/libgcs-ipc.so|1138d9ee0b988bdfa48ac9f421157c0773cbdeca
-vendor/lib64/libgcs-osal.so|212639ff25144668a3f10acf7d78ed404a29ec98
-vendor/lib64/libgcs.so|8e53aa72fac4fdf28f383ebc505393ae6b205c4f
-vendor/lib64/liblistensoundmodel2.so|3bccd316aa0f7d8acb3ef2e400b9b75b49d90c2a
+# Listen - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/lib/hw/sound_trigger.primary.sdm660.so|7700ac77ffb4ced4a404d12cb962533252f50c83
+vendor/lib/libadpcmdec.so|50af16a56e7741978401b799a84e5ff43dedbfe0
+vendor/lib/libgcs-calwrapper.so|0ac1a2c5e79c4455205bf10b2059007f699a647c
+vendor/lib/libgcs-ipc.so|e75aee393a44c18191a7a91a1d27e75271d90b77
+vendor/lib/libgcs-osal.so|1173b18d227a883d4503b435d75fae5cd5c597f0
+vendor/lib/libgcs.so|c31fb9b9c4ad8466dbaaa0a7c27419209fae0e3a
+vendor/lib/liblistensoundmodel2vendor.so|19df7a0a9de9b313d5ac5013b99892c594f28f55
+vendor/lib/libmulawdec.so|4575d8afb0dd7f9c33fba9fc25fc073d7c525fe5
+vendor/lib/libsmwrapper.so|efc8c8b61d5947a88f2a1f52e6c6d50bac78a61e
+vendor/lib64/hw/sound_trigger.primary.sdm660.so|58419a9261406edd3d1ea84ab2f3df15ec4ae9c4
+vendor/lib64/libgcs-calwrapper.so|740cb0425190f503a1128da5cb33b92893d55f86
+vendor/lib64/libgcs-ipc.so|2af0e02519a4bdf8a4f78f551b3a11268b6daeb6
+vendor/lib64/libgcs-osal.so|fddf561ad3fa2d3917eb424f38ec4d1e450ab5d9
+vendor/lib64/libgcs.so|de535de65ec247f94535daf39d3e7133b31b98bf
+vendor/lib64/liblistensoundmodel2vendor.so|8ebfe82c02e39f8520e1d62c6d611398c9b801bf
+vendor/lib64/libmulawdec.so|179e0f2d77498a0dc9080b9ba7a17ac995b64d2e
 
-# Media - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-lib/libFileMux.so|22005fb1595b2b76e199b82ff3790c1bc3d54a20
-lib/libOmxMux.so|66ccc804301bccfbd17afb39a60131dd1a3fa9bc
-lib64/libFileMux.so|8b31ad6706780a8e5225817d8bf8b683ba1523c5
-lib64/libOmxMux.so|3c2fef1fc174bd93ebdc4cbeca9c4acc3731222e
-system_ext/lib/libmmosal.so|d485ea00eea93f22f3bb9738c24f52711399689f
-system_ext/lib/libmmparser_lite.so|7264378fe6f12ef8a66d8ce1d970dcf1664b6e2d
-system_ext/lib64/libmmosal.so|6962f780fbba52f4c057e05f4ccadccadf4e690f
-system_ext/lib64/libmmparser_lite.so|a146ac76b5919cbe5d4e635c63e83ec74168d7d1
-vendor/lib/libAlacSwDec.so|3a6d7dae2808dbe111ff4449b4e1e82560466ef3
-vendor/lib/libApeSwDec.so|ff14ad2ebbabcd89278830d817e9aa6bdcb1799a
-vendor/lib/libdsd2pcm.so|f9d2f26315764c27137bc375bb85b20fabe66ff9
-vendor/lib/libFlacSwDec.so|707dbc6b5d2890dc3bba22c00b372f0973baebda
-vendor/lib/libI420colorconvert.so|c8e9a1fb33ae50f5b29c892c6edca2f7d9524af5
-vendor/lib/libmmosal.so|9309b491b033caa895a45bf769ed5af59adf1a2b
-vendor/lib/libOmxAacDec.so|59bca3949a893cc9b70ac432b87b4c656fffa4dd
-vendor/lib/libOmxAlacDec.so|b1c4795012458fc5a569be5e930ceb5603c0c88c
-vendor/lib/libOmxAlacDecSw.so|ff4b38dbead17dcd0c9a045f109fa4e92ca2992a
-vendor/lib/libOmxAmrDec.so|cf8cf5f1664cea77c48db08785d3191958b772be
-vendor/lib/libOmxAmrwbplusDec.so|8a282320d05d05eac09fabcd69209bce80540ebf
-vendor/lib/libOmxApeDec.so|9f10c570f456b65b2b2dfcce3fe0f6fc35196d48
-vendor/lib/libOmxApeDecSw.so|1014274fe2ad40b361a3adecae258161287500dc
-vendor/lib/libOmxDsdDec.so|d265762dfc714d51379a27970b05f325dbe412da
-vendor/lib/libOmxEvrcDec.so|28b401779d9ee45b0e94415faf9ac34c6fd200f0
-vendor/lib/libOmxG711Dec.so|c952f9d05cf465f622aa00f9640f616c3f2a2a40
-vendor/lib/libOmxQcelp13Dec.so|ee6ede27923f04f4bb03b101bbf302e4df782945
-vendor/lib/libOmxVideoDSMode.so|84c632ef31c4dd88c5e08f92ba02e3f29df09b35
-vendor/lib/libOmxWmaDec.so|a664af6f1be984747ce5101881696e126ca3e098
-vendor/lib/libmm-color-convertor.so|063b3772fb4c5b85877c35a50e667540cde0c7d6
-vendor/lib64/libAlacSwDec.so|9fbfad65ffca33e1ac480e9cb056467ac75a6d5a
-vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
-vendor/lib64/libFlacSwDec.so|002aa39927e75568efb81c7ae3a044c694babfc3
-vendor/lib64/libI420colorconvert.so|b3eb95a4e43763c73ea8d4ea112fb683b69ed42b
-vendor/lib64/libmmosal.so|fc4fdcc1f8d2fd75c95da4691c9511975f3b5bf3
-vendor/lib64/libOmxAacDec.so|f17b7e219fffda2069371222792b560619878816
-vendor/lib64/libOmxAlacDec.so|828edcaa01f477359a9a6daf0cea6d5cb74f6db1
-vendor/lib64/libOmxAlacDecSw.so|159ea5d27936611107adf7355db760819bded68f
-vendor/lib64/libOmxAmrDec.so|33b1a5d9dc68cd3cf71fe7895c0b637574358201
-vendor/lib64/libOmxAmrwbplusDec.so|2afc34c8f03890d4081f015b0dfdfd8cf5d302b8
-vendor/lib64/libOmxApeDec.so|cdcb7d31c8b15d3d6aa983bcd614dd79a41e71fd
-vendor/lib64/libOmxApeDecSw.so|1536b0c27fd161e845f6615f73792fa66cf7027e
-vendor/lib64/libOmxEvrcDec.so|8a27c85dd54f269a9ba6b41f3a1c1b63e9ae2ea9
-vendor/lib64/libOmxG711Dec.so|e47603c64b97947edc80d4acfb0ef2845d2435e8
-vendor/lib64/libOmxQcelp13Dec.so|5a8e892912cd56c74b72420ea4fea62918bf260e
-vendor/lib64/libOmxWmaDec.so|12f994f034be6249acf8f25306bce4a38405e099
-vendor/lib64/libmm-color-convertor.so|d7404046e5863a87922b35c3ff3edc5e76d6c249
+# Media - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+lib/libFileMux.so|d7446f7fdebaab56d4e727929747a2680453db30
+lib/libOmxMux.so|db41cc9a88f12b7ba935033cdb3a72ae27f90ca3
+lib64/libFileMux.so|5db8731ad655a962968cec15b8ade3b240d7a884
+lib64/libOmxMux.so|6dcdd780fd92950339de014bc4a20491d9471f7e
+system_ext/lib/libmmosal.so|a82452295814d9d55d4132fb42df9c115088b9a1
+system_ext/lib/libmmparser_lite.so|22d86c2ec9d9192ed674035884adadfbff8f363c
+system_ext/lib64/libmmosal.so|b2273660d5b750d760a6b0110e3f77e544de1049
+system_ext/lib64/libmmparser_lite.so|36564c62a0afa0af97b0e7761092b0ff318e0dde
+vendor/lib/libAlacSwDec.so|0eae95f42049a7ed39137cbba8e735ec1e275282
+vendor/lib/libApeSwDec.so|139c1533a9a48b585e7b2a13488d712ab8cb495d
+vendor/lib/libdsd2pcm.so|110c444d2c0a73b41bae853e2747dd0cdeb617f8
+vendor/lib/libFlacSwDec.so|81dccb2ffe37b83ffc47805354a55dd67eb1f23f
+vendor/lib/libI420colorconvert.so|f1955555897c8f2ccc2a6c28c3ac2f13406b830e
+vendor/lib/libmmosal.so|8cd496645a4b2609d50550a9d0566aba6a3a040a
+vendor/lib/libOmxAacDec.so|447e31d9657c0770c8c34f810e5869f1da81882a
+vendor/lib/libOmxAlacDec.so|1aa97ddee0d3e9636a7657d8198ca3049fd16952
+vendor/lib/libOmxAlacDecSw.so|9020b5d4372db495e0069ae72f6fb0c36941c6d1
+vendor/lib/libOmxAmrDec.so|1850e7557406ca38fe2c1c89cd3faa75a16899f8
+vendor/lib/libOmxAmrwbplusDec.so|308574e2a040d6c7df71d80ab26eeaf601bf53aa
+vendor/lib/libOmxApeDec.so|6e0d27f5de8baa0102478bd1bd5dd9365c382e70
+vendor/lib/libOmxApeDecSw.so|6c888102bcb41660b33ae5e9e3d6a871321d4f38
+vendor/lib/libOmxDsdDec.so|e6be2d96d0bde2abcd44f9c7595b294b5f2c41a9
+vendor/lib/libOmxEvrcDec.so|3e1a2ed3f350cf3fc102ffa01bb2ac35be90e83d
+vendor/lib/libOmxG711Dec.so|f47740d8612b46c1072ab7987631c73bb7608f80
+vendor/lib/libOmxQcelp13Dec.so|66e3fe30360958c0521b29e4675933750596835a
+vendor/lib/libOmxWmaDec.so|1865d719564d995e44cd0520a15e44b1c01b34f0
+vendor/lib/libmm-color-convertor.so|720d6081c20fe7024632fb55654134b18887d002
+vendor/lib64/libAlacSwDec.so|cac48c2523ffb5a43797298d38fbe1997094587b
+vendor/lib64/libApeSwDec.so|4b4cf61823110cea4387cfdb2b3636608ae705cb
+vendor/lib64/libFlacSwDec.so|c9e2b0743b5f0e4a434b253e6f24abff7c4932e8
+vendor/lib64/libI420colorconvert.so|658e321538988587f06646b8fe59b34c27dc1d18
+vendor/lib64/libmmosal.so|156da14086f98a3d8afd1deafcfd027f3d479c9c
+vendor/lib64/libOmxAacDec.so|6d7c6aee811aac1f4173464fcd719b8589466e3e
+vendor/lib64/libOmxAlacDec.so|1d6aff67ddd789033bfb2bf808bd9a6745799e8d
+vendor/lib64/libOmxAlacDecSw.so|ae8092028a48d9e05849b9dce06daccac5735368
+vendor/lib64/libOmxAmrDec.so|2784e8e80fb950cdd57a79f2e5a9c1aad929e902
+vendor/lib64/libOmxAmrwbplusDec.so|a65d8ef9c28d15d45857de241faf7d93e3cfa914
+vendor/lib64/libOmxApeDec.so|70cff683beab55755590b5d8e7f5fd6c389b0a08
+vendor/lib64/libOmxApeDecSw.so|d2d506ff01eff87c406d8527ccb9313e15af8e35
+vendor/lib64/libOmxEvrcDec.so|744b1498a2ee86a8ba8af338844b64f114144c76
+vendor/lib64/libOmxG711Dec.so|b43b5b78a901ca20bfe72db64709e4c8b63f237b
+vendor/lib64/libOmxQcelp13Dec.so|9d8f53e61fbcdaa124fc8a5e4903ce5ff026cb28
+vendor/lib64/libOmxWmaDec.so|bd5cf940ada1c52b81ca597759cbd004562eab8c
+vendor/lib64/libmm-color-convertor.so|ec90d3a541736302cf860e53b9f4c756d921b896
 
 # Mlipay - from wayne V11.0.3.0.PDCCNXM
 vendor/bin/mlipayd@1.1|035249e2ee388064597e21275fbe8284b68a819c
@@ -528,10 +533,10 @@ vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781
 vendor/lib64/libmlipay.so|3d78c8a99c9248df20ad7ebc2c9abbd4c579d38c
 vendor/lib64/libmlipay@1.1.so|885d0c6eba14c5d2da5e245844bea3c3ae1540af
 
-# Peripheral - from ginkgo V12.5.1.0.RCOCNXM
-vendor/bin/pm-proxy|8e159d1fb25f5ee24cf94be8534b3bb8891831bc
-vendor/bin/pm-service|951e322c67132fe8826648e4fda9ddf5e4304e8a
-vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
+# Peripheral - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
+vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
+vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
 
 # Power-off charging daemon - from msm8998
 -sbin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
@@ -575,13 +580,15 @@ vendor/lib/libqmi_csi.so|00256ae35678b48bb1c45c7b97e6a84bcfeb7164
 vendor/lib/libqmi_encdec.so|16d1f1359ecdc2cd9b7f47cc05ac71a954fae76a
 vendor/lib/libqmiservices.so|d1e3378b5ea0983daa4b25935b64070dc6cfaf6b
 
-# QSEEcom Hal - from LA.UM.10.2.1.r1-03400-sdm660.0
-vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|d3d6ed383483747f8bec574adcac1c24ef1ac3a4
+# QSEEcom HAL - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/lib/vendor.qti.hardware.qseecom@1.0.so|44c39e51135b3752615e3e2b1adb32e10b81abc4
+system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so|ff725c42df592e5a680234683fd4833276b4b4a5
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|b4ab4e64dd1d45fb38715dd3144e87c57b2e6d17
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
-vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|6b3246eaacad1ef332e3deb1c980265ddf263a57
-vendor/lib/vendor.qti.hardware.qseecom@1.0.so|ba96362cc5d0cc857fcb9f0b0992101a39340f71
-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|c76c8b6856cd1800fd170c85f38474ce4d2ac095
-vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|c40ad19569676878f6bac09b18fff119c8f6f68b
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|3142010d06fd79f3f78989ba9d99ff3ac1a77990
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so|620b42bdbb3e3a295eec19ba0fafa4302887a23c
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|53619d9b4789c249b9db6531f72bd4b73a6df064
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|6dc7ba18a9b28d4d5f3e6928b5f8c33219474c83
 
 # Radio - from ginkgo V12.5.1.0.RCOCNXM
 -system_ext/app/DeviceInfo/DeviceInfo.apk|9f0039d6a431055d59a3f70d6237481dc0794908

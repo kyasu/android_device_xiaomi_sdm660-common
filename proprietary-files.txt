@@ -527,11 +527,11 @@ vendor/lib64/libOmxQcelp13Dec.so|9d8f53e61fbcdaa124fc8a5e4903ce5ff026cb28
 vendor/lib64/libOmxWmaDec.so|bd5cf940ada1c52b81ca597759cbd004562eab8c
 vendor/lib64/libmm-color-convertor.so|ec90d3a541736302cf860e53b9f4c756d921b896
 
-# Mlipay - from wayne V11.0.3.0.PDCCNXM
-vendor/bin/mlipayd@1.1|035249e2ee388064597e21275fbe8284b68a819c
+# Mlipay - from lavender QKQ1.190910.002 V12.5.7.0.QFGCNXM
+vendor/bin/mlipayd@1.1|a8cd2b8e51a1e8bd1325847b607f81e4f5600f2f
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781b5911c0595eaeac8b80ea
-vendor/lib64/libmlipay.so|3d78c8a99c9248df20ad7ebc2c9abbd4c579d38c
-vendor/lib64/libmlipay@1.1.so|885d0c6eba14c5d2da5e245844bea3c3ae1540af
+vendor/lib64/libmlipay.so|c3589fa6bae9a78c622a768e65eac07ac8da6d9c
+vendor/lib64/libmlipay@1.1.so|d56a1f39930bc44891a22fc5490efe6aa0eb4a2c
 
 # Peripheral - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4

@@ -782,6 +782,10 @@ vendor/lib64/libsensor_reg.so|b18e116898180bc196374ca76390e78e4a295dcb
 vendor/lib64/libssc_default_listener.so|32362d1d20fe76de96daea735787d1f6ef8c2dd4
 vendor/lib64/sensor_calibrate.so|9f0cd5ba6e11c50765f090deb6d8697e2eb3a187
 
+# Sensors - from S62Pro
+vendor/lib/sensors.ssc.so|7cbe5294892d5b7a514141f6a902f1d9f1b1ca6a
+vendor/lib64/sensors.ssc.so|6934f0fd9e5e74356d9f18af0cbaa28164e697f6
+
 # Soter - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae

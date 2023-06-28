@@ -458,7 +458,7 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|23c1c647a6bd2b91a97ea4
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|de215e0422b21ba5f21a9aeeaff5fc0b5869be2e
 
 # GPS - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-vendor/bin/garden_app|712b78a16d5afb399af48ffe69b33c675c746494
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|450cfd49e4020f4b0c44ba24653bba5bc35a489e
 vendor/bin/loc_launcher|b520e0ec0532273111eb498af8aac9b3f38d65e9
 vendor/bin/lowi-server|67a511fd54e513da4b48054249d2d09fd3e1671d
 vendor/bin/mlid|1ac6429fca1593f2e77cd66e0dabe8f425c43cad
@@ -466,10 +466,12 @@ vendor/bin/slim_daemon|d3bd65d839d2f8bded5e4caa76fd84dc6625c456
 vendor/bin/xtra-daemon|a97e01b7a97c0d117dad2865381279871b22af68
 vendor/bin/xtwifi-client|785318c8d4baf5cb71ea29cd13797b4bb4fdeed3
 vendor/bin/xtwifi-inet-agent|918d048262f0d08d2f1464e331001b46ae75aa9e
+vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|d99509d06a4fabce70c98388798651464bcf092e
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|f8634578ec7dbe08b85f346a4a01b9d35b30029f
 vendor/lib64/libasn1cper.so|e8433017ceb0f2cef072c631ae5deb12f55c198a
 vendor/lib64/libasn1crt.so|0e3c2c57d702f8b9f203aeb043edac0d5a7452cf
 vendor/lib64/libasn1crtx.so|9e4b305255d2edea615d883fa563495622affd37
@@ -477,8 +479,6 @@ vendor/lib64/libcacertclient.so|e3a8936689ebcbb01cdf99cada5f66c79b25099b
 vendor/lib64/libcdfw.so|2cb66d4a85c682798c0e4c3db444fe044bee5a61
 vendor/lib64/libcdfw_remote_api.so|dfa21c6a5cb70d030032db458301b772b693e942
 vendor/lib64/libdataitems.so|0a5da45cf942fc273f8709fa232bc913d23d76e6
-vendor/lib64/libgarden.so|5ec9bb6f0425450bc845d9fb2814a96be552dd1b
-vendor/lib64/libgarden_haltests_e2e.so|d36d5b23452b3996f0d74f1dfe7067d64053b8e4
 vendor/lib64/libgdtap.so|f92eff9d53e68de634558a64dab0a64bffe5b5d6
 vendor/lib64/libgnsspps.so|c4e4eb8c5314e53ad54b57a29288fafb96aa83dd
 vendor/lib64/libizat_client_api.so|510a233c74c47c5170d18b31df5f1b08ec994e13
@@ -509,6 +509,9 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so|69b13bc69088f859a93efff420e729b08047
 vendor/lib64/vendor.qti.gnss@4.0.so|bdeca40a0020c01eb046e7a3935f78ad046add85
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|1151315a12b072662e5f5e61505916ce7ac534c1
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|234659279ea5ee717d3797756287d0974478cc58
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|e57659e5a635c367739cf2ed1902f3d40dd5e277
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|984490290e45332ff6e33562315a914d13c1e540
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 
 # Graphics - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
 lib/libsdm-disp-apis.so|68c45b0a37115ffe0bc503873cbc3b6a9ae913d9

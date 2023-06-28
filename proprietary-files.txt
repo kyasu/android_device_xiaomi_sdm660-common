@@ -121,9 +121,9 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|7de458829e1d4f5157b291dab5fdb25546df08fc
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|6918a6a6d66509568ced685917c891038cec3d13
 
-# ANT+ - from LA.QSSI.13.0.r1-09700-qssi.0
-system_ext/lib/com.qualcomm.qti.ant@1.0.so|ef2c19734749bee9662a6f6e1cd924387c5bbb9c
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bdd0b1538f514f237c2ed3915d755cdbd5e2743
+# ANT+ - from LA.QSSI.13.0.r1-10000.02-qssi.0
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|c0be7926f82c72090b25f86d942f202e677cbde3
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|e4191dde72003e9f824167f3d62bcf9065578a12
 
 # ANT+ - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|20cb53585f9cc23eb44c37d026a97dfcae84d64a

@@ -43,29 +43,30 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 vendor/lib/rfsa/adsp/dirac_resource.dar|1e5c52f2a41bdbec4f38ebdcb83d4fc73edc0ec9
 vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
 
-# Audio - from LA.QSSI.13.0.r1-09700-qssi.0
+# Audio - from LA.QSSI.13.0.r1-10000.02-qssi.0
 system_ext/bin/qxrsplitauxservice|048613348c961d7470a54aefed59f7782947ee4b
-system_ext/etc/init/sxrauxd_ext.rc|b37164ec9aad4ccb583a25dfe2769c15047aa2e9
+system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/etc/seccomp_policy/sxraux-arm.policy|641a5c68c9842e9defc052b6b401c5e8a4c2d2de
--system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar|9f30a95f495a24ed6d404f5e432e599af201b6fd
+-system_ext/framework/audiosphere.jar|ecfaddf551830ccb6f5b0b979a407eccc9305e94
+system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar|83305cd1eb4a03e69557d902ad96ba73bb96d563
 system_ext/lib/libbinauralrenderer_wrapper.qti.so|0ce8a90a85c87241acb46b6546c981998af53c97
 system_ext/lib/libhoaeffects.qti.so|c387ddcbe3525f16e56c610855f2562418507c0b
 system_ext/lib/libhoaeffects_csim.so|729f6119dbff492a03d26acaa45d60c78af77483
-system_ext/lib/liblsmclient.so|a7919f1a4abd0d54a25777bc6e77d61f61f9a19a
+system_ext/lib/liblsmclient.so|63d015a12e6546bcb0b1582a262bcf8af4797fcf
 system_ext/lib/libvr_amb_engine.so|c9ef7e0264efe2c9dd76dbdadfadb450be7be782
 system_ext/lib/libvr_object_engine.so|784e1e314a918f20c1aca10570aa1b214cdea1d5
-system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so|4017d5b0686e6c51fe3bcb7b7e9f2f2c4ac8a105
-system_ext/lib/vendor.qti.voiceprint@1.0.so|0033080b02ba1fa3fd59ce4e4fa5032da27f81f7
+system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so|75c86276c13bbc5c5f5067714f94fc3aeb7c9c6e
+system_ext/lib/vendor.qti.voiceprint@1.0.so|861ba84f4e1a28a32f2aaf36d2a687ff2e16d0a7
 system_ext/lib64/libbinauralrenderer_wrapper.qti.so|1b109f9fd3f31bbd76b5236f4ddeff338ec95ac3
 system_ext/lib64/libhoaeffects.qti.so|8cb64c60631344420a248fdbbaa417c621c00c07
 system_ext/lib64/libhoaeffects_csim.so|8228dcc2d82c7b4d43934c14b0ca7885ecec6a2a
-system_ext/lib64/liblsmclient.so|c2312f6164fefb3fbc084e4f2b1921878f316f71
+system_ext/lib64/liblsmclient.so|42bb8883f0b9b0f82ed845bb60f6499615a9c6fe
 system_ext/lib64/libqxrsplitauxservice.qti.so|fc27369bc454cad2ef7acc74dd30c4e7f567a82e
 system_ext/lib64/libvr_amb_engine.so|8f1f367eb17af1cc9d260648c415120b3b9f2e10
 system_ext/lib64/libvr_object_engine.so|9909bce7e217367e9c0aaef1f13b3605a7377849
-system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so|1922bbddcc8d7b7df25b8716723210ab4a453680
-system_ext/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so|71dbc62ef2e95df96d59dad0f7c01008aa31410c
-system_ext/lib64/vendor.qti.voiceprint@1.0.so|b6526e54b63320af39647953ab0f68949cd8c185
+system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so|ccb0ad2128813d6c52f6ec402dbd7feaa719f292
+system_ext/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so|605b523762032e26eeb5ea69cfedc6df272082d3
+system_ext/lib64/vendor.qti.voiceprint@1.0.so|eafdb85ba464749dcdd8c0436aff82ea399edbcd
 
 # Audio - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/audioflacapp|3fdaf339ca21db8ec19c597872885fad3725c942
@@ -91,9 +92,9 @@ vendor/lib64/libaudioconfigstore.so|90d0581e4974cdd89be261bd2d41a5df3f52691a
 -vendor/lib64/libaudioparsers.so|5fda61f11849004db9196aa9604cb81cb3224df9
 vendor/lib64/libqtigef.so|7b8bf697aaec567ff1f0cfd1fdc352a563df864a
 
-# Audio FX modules - from LA.QSSI.13.0.r1-09700-qssi.0
+# Audio FX modules - from LA.QSSI.13.0.r1-10000.02-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
--system_ext/framework/audiosphere.jar|3c42dff6da0571acd9ea466983c7f6354d588bb3
+-system_ext/framework/audiosphere.jar|ecfaddf551830ccb6f5b0b979a407eccc9305e94
 
 # Audio FX modules - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/lib/soundfx/libasphere.so|316ca9f69ff8a97444003624d533cad9ccd642d0
@@ -610,8 +611,8 @@ vendor/lib64/libkeymasterutils.so|40a8cbd82dcf8496db39511f4d6f2e93b63de439
 vendor/lib64/libqcbor.so|dc6b0d7ac44d7a8de35403cc92ee4417b154db5d
 vendor/lib64/libqtikeymaster4.so|0df7c63aa868c62956a03bce096bb5bfee0c811e
 
-# Listen - from LA.QSSI.13.0.r1-09700-qssi.0
-system_ext/lib/liblistenjni.qti.so|54159c7706bd174def457432e929c3867c8a93e7
+# Listen - from LA.QSSI.13.0.r1-10000.02-qssi.0
+system_ext/lib/liblistenjni.qti.so|0283a87fef0a541ef3e42e5e5a80726f5abbb55b
 system_ext/lib/liblistensoundmodel2.qti.so|d49dd5bb4f1247422c4654d98af43c75fa8ad18c
 system_ext/lib64/liblistenjni.qti.so|83327fb3590e0269b6c8233591a353613216c8da
 system_ext/lib64/liblistensoundmodel2.qti.so|1a828485e0cfe028eb341e10f62a96a7b453b8a0
@@ -619,6 +620,8 @@ system_ext/lib64/liblistensoundmodel2.qti.so|1a828485e0cfe028eb341e10f62a96a7b45
 # Listen - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/lib/hw/sound_trigger.primary.sdm660.so|7700ac77ffb4ced4a404d12cb962533252f50c83
 vendor/lib/libadpcmdec.so|50af16a56e7741978401b799a84e5ff43dedbfe0
+vendor/lib/libcapiv2svacnnvendor.so|50c9517b6b3ced6c20fbfa090dd9e57720f43c73
+vendor/lib/libcapiv2vopvendor.so|5de43a8498c771a28bd23198ae077c2ed4dc42cf
 vendor/lib/libgcs-calwrapper.so|0ac1a2c5e79c4455205bf10b2059007f699a647c
 vendor/lib/libgcs-ipc.so|e75aee393a44c18191a7a91a1d27e75271d90b77
 vendor/lib/libgcs-osal.so|1173b18d227a883d4503b435d75fae5cd5c597f0
@@ -627,6 +630,8 @@ vendor/lib/liblistensoundmodel2vendor.so|19df7a0a9de9b313d5ac5013b99892c594f28f5
 vendor/lib/libmulawdec.so|4575d8afb0dd7f9c33fba9fc25fc073d7c525fe5
 vendor/lib/libsmwrapper.so|efc8c8b61d5947a88f2a1f52e6c6d50bac78a61e
 vendor/lib64/hw/sound_trigger.primary.sdm660.so|58419a9261406edd3d1ea84ab2f3df15ec4ae9c4
+vendor/lib64/libcapiv2svacnnvendor.so|edbb52ee36f4607f3a63fadbac92e1b9d0065251
+vendor/lib64/libcapiv2vopvendor.so|9dad2e184844475c521631d04d5ecb14ddcc3c32
 vendor/lib64/libgcs-calwrapper.so|740cb0425190f503a1128da5cb33b92893d55f86
 vendor/lib64/libgcs-ipc.so|2af0e02519a4bdf8a4f78f551b3a11268b6daeb6
 vendor/lib64/libgcs-osal.so|fddf561ad3fa2d3917eb424f38ec4d1e450ab5d9
@@ -634,15 +639,21 @@ vendor/lib64/libgcs.so|de535de65ec247f94535daf39d3e7133b31b98bf
 vendor/lib64/liblistensoundmodel2vendor.so|8ebfe82c02e39f8520e1d62c6d611398c9b801bf
 vendor/lib64/libmulawdec.so|179e0f2d77498a0dc9080b9ba7a17ac995b64d2e
 
+# Media - from LA.QSSI.13.0.r1-10000.02-qssi.0
+system_ext/lib/extractors/libmmparserextractor.so|f530f24d409031c030d94260ea1cc5b7d42ec734
+system_ext/lib/libavenhancements.so|6edb900cf182fe84b5d13b2b40bd04f3d5b6edf3
+system_ext/lib/libmmosal.so|47f1f3b51063aa10e1175333dc32522637289dc7
+system_ext/lib/libmmparser_lite.so|f63d4f3e66ee2e87a94646f6e49c80f9308c7c37
+system_ext/lib64/extractors/libmmparserextractor.so|07eb92a082ab1b516b39e1c8b1110e5d7bb66a1d
+system_ext/lib64/libavenhancements.so|4b265957bd8c20bc088f5e6333832f0790de5a7b
+system_ext/lib64/libmmosal.so|d46f10b470ecd829c6f2a424566f1cbbc6ebe234
+system_ext/lib64/libmmparser_lite.so|be18953c8c05af2af44bf7feccf2de4fdedaa3a3
+
 # Media - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 lib/libFileMux.so|d7446f7fdebaab56d4e727929747a2680453db30
 lib/libOmxMux.so|db41cc9a88f12b7ba935033cdb3a72ae27f90ca3
 lib64/libFileMux.so|5db8731ad655a962968cec15b8ade3b240d7a884
 lib64/libOmxMux.so|6dcdd780fd92950339de014bc4a20491d9471f7e
-system_ext/lib/libmmosal.so|a82452295814d9d55d4132fb42df9c115088b9a1
-system_ext/lib/libmmparser_lite.so|22d86c2ec9d9192ed674035884adadfbff8f363c
-system_ext/lib64/libmmosal.so|b2273660d5b750d760a6b0110e3f77e544de1049
-system_ext/lib64/libmmparser_lite.so|36564c62a0afa0af97b0e7761092b0ff318e0dde
 vendor/lib/libAlacSwDec.so|0eae95f42049a7ed39137cbba8e735ec1e275282
 vendor/lib/libApeSwDec.so|139c1533a9a48b585e7b2a13488d712ab8cb495d
 vendor/lib/libdsd2pcm.so|110c444d2c0a73b41bae853e2747dd0cdeb617f8
@@ -662,6 +673,8 @@ vendor/lib/libOmxG711Dec.so|f47740d8612b46c1072ab7987631c73bb7608f80
 vendor/lib/libOmxQcelp13Dec.so|66e3fe30360958c0521b29e4675933750596835a
 vendor/lib/libOmxWmaDec.so|1865d719564d995e44cd0520a15e44b1c01b34f0
 vendor/lib/libmm-color-convertor.so|720d6081c20fe7024632fb55654134b18887d002
+vendor/lib/vendor.qti.hardware.vpp@1.1.so|95b78052ea6c7e1d0505a9e6bde5ffd124c83f49
+vendor/lib/vendor.qti.hardware.vpp@1.2.so|fada7e0e4d38d2dd8d614dad69407584be20b254
 vendor/lib64/libAlacSwDec.so|cac48c2523ffb5a43797298d38fbe1997094587b
 vendor/lib64/libApeSwDec.so|4b4cf61823110cea4387cfdb2b3636608ae705cb
 vendor/lib64/libFlacSwDec.so|c9e2b0743b5f0e4a434b253e6f24abff7c4932e8
@@ -679,6 +692,8 @@ vendor/lib64/libOmxG711Dec.so|b43b5b78a901ca20bfe72db64709e4c8b63f237b
 vendor/lib64/libOmxQcelp13Dec.so|9d8f53e61fbcdaa124fc8a5e4903ce5ff026cb28
 vendor/lib64/libOmxWmaDec.so|bd5cf940ada1c52b81ca597759cbd004562eab8c
 vendor/lib64/libmm-color-convertor.so|ec90d3a541736302cf860e53b9f4c756d921b896
+vendor/lib64/vendor.qti.hardware.vpp@1.1.so|7526206ed3a4cf4efdcab9f93dd6dd720edef0e4
+vendor/lib64/vendor.qti.hardware.vpp@1.2.so|f50e9ca3b656c51840512f419131e9426d10b227
 
 # Mlipay - from lavender QKQ1.190910.002 V12.5.7.0.QFGCNXM
 vendor/bin/mlipayd@1.1|a8cd2b8e51a1e8bd1325847b607f81e4f5600f2f

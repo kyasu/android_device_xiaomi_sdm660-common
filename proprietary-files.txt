@@ -371,6 +371,8 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 vendor/bin/qseecomd|580fbb8109e191c0ba2eb476acd8d29c8d2eefed
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/lib/libQSEEComAPI.so|3a8eca79e24ffdaf1791b0f1cae84abf88f4161e
+vendor/lib/libGPQTEEC_vendor.so|aa14a40f5bd0389da27216d3b276e791e090636f
+vendor/lib/libGPTEE_vendor.so|24e84956cf6f030ada11cb330c39b4a40ad38abb
 vendor/lib/libsdedrm.so|516b320b6a55a23b2f4764074d4796a29483fac1
 vendor/lib64/libGPQTEEC_vendor.so|a4a5b76e15f388a68d2511cd88db4d71d52d74ab
 vendor/lib64/libGPreqcancel.so|85bd5c16f107b7fbfccf506386e52e41d53d67e7
@@ -392,9 +394,6 @@ vendor/lib64/libtrustedapploader.so|8e1ba14b222370acb44775a40e4cdaca74d8fc4b
 vendor/lib64/libtzdrmgenprov.so|77f37f35c1e61d36bf32df4215487329872095c9
 
 # DRM (Qualcomm Trusted Execution Enviroment) - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|1f19be8fdbd58738aa80d5f658ea63818571bb59
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|c476af2a78e7948849a5c96319fceb467b75e0ed
 vendor/lib/libQTEEConnector_vendor.so|82fb1d256fe039c27378b0e8e848b91e0808d27a
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|0e59f6289bbf88375bd1f3ba92e3c3be9759ccb7
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|183e7a78dda19e11f9232537b45ea9cac98d1eff
@@ -413,8 +412,13 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|19599f6a2afd8a218a2a1d3bb214575
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine|0918336440ba0464f93fee97925b94ad12b7ef5d
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|992f63e9700da29099e0590858a6becaaadb2976
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
+vendor/lib/libbase64.so|99d6f9a0dbcb54d0bf1c7d0d5ee13327ff8dfc0a
 vendor/lib/libcpion.so|183ae0506fc49d15118a621dc259f1d6dc471add
-vendor/lib/libmm-hdcpmgr.so|0e6c6b410f5f14b5cb1ae9bc7e4aff7354a6e57b
+vendor/lib/libcppf.so|f41292870e93c373bd8e04dc85bd879247f37585
+vendor/lib/libqisl.so|f16a284407d1bb9ccfc0de24494370acf03e7ce3
+vendor/lib/librpmb.so|2ca329620251d43a176425e9e97ea6e390a96311
+vendor/lib/libssd.so|b04bf78f2e7744f80a1902520e1bad02e50d41b7
+vendor/lib/libtzdrmgenprov.so|e512cb9681b4a657252ef855ed5834a37e24e097
 vendor/lib64/mediadrm/libwvdrmengine.so|f90815f6dee8ddb57d15d68c8e61258d1085b015
 vendor/lib64/libbase64.so|df5aef5f70d27e5335c978b99012d6ca202a0266
 vendor/lib64/libcpion.so|d7d4e062babfb51805e7d6ea81fe00de1fb8e3d1
@@ -750,12 +754,8 @@ vendor/lib64/libqmiservices.so|5907c4ad11aa1dfb57a885d9732b509ed8c09946
 vendor/lib64/libsubsystem_control.so|5e8e78ea84866f9ca9d9a2319b7fd33fc3aecae5
 
 # QSEEcom HAL - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-system_ext/lib/vendor.qti.hardware.qseecom@1.0.so|44c39e51135b3752615e3e2b1adb32e10b81abc4
-system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so|ff725c42df592e5a680234683fd4833276b4b4a5
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service|b4ab4e64dd1d45fb38715dd3144e87c57b2e6d17
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
-vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so|3142010d06fd79f3f78989ba9d99ff3ac1a77990
-vendor/lib/vendor.qti.hardware.qseecom@1.0.so|620b42bdbb3e3a295eec19ba0fafa4302887a23c
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|53619d9b4789c249b9db6531f72bd4b73a6df064
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|6dc7ba18a9b28d4d5f3e6928b5f8c33219474c83
 

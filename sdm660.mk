@@ -219,7 +219,9 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm@1.4.vendor \
+    libdrm \
+    libdrm.vendor
 
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \

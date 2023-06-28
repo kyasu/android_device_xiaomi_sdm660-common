@@ -786,14 +786,15 @@ vendor/lib64/libssc_default_listener.so|2c242c49c601088e3a403ab56c60b841938811c8
 vendor/lib64/sensor_calibrate.so|f3e7652f8821710ffc301c8e6f886a76d0a036b0
 vendor/lib64/sensors.ssc.so|214263957659adc0a9e5069d0b50245c850600dd
 
-# Soter - from LA.UM.8.2.r1-06200-sdm660.0
--app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
+# Soter - from lavender QKQ1.190910.002 V12.5.7.0.QFGCNXM
+vendor/app/SoterService/SoterService.apk|a906b956cff77c2a1bcb26d8a74ecd386b50eeb2
 
-# Soter - from LA.UM.10.2.1.r1-03400-sdm660.0-kunmun
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
+# Soter - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar|886e50c05e8a45ce51c1f8818bc37cac6b8a2c90
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|5b6550323096beb5db94658ac2d6a28e301d0acb
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|032e38d60840b5ac7ca21eece486ca5acab7f203
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a6078aee7
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|3d19c671e83c0627bb979988a6090faef4ef3fd0
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|9d13ecccffec6774e7acc4af3bfce40c027cad31
 
 # Thermal - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/thermal-engine|d58d0a84373658e230032d437e35e3bf3db92c8c

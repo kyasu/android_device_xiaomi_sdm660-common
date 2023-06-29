@@ -139,6 +139,7 @@ ro.telephony.iwlan_operation_mode=legacy
 ro.vendor.use_data_netmgrd=true
 
 # DPM
+persist.vendor.dpm.feature=11
 persist.vendor.dpmhalservice.enable=1
 
 # DRM

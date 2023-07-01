@@ -6,6 +6,9 @@ audio_hal.period_multiplier             u:object_r:vendor_default_prop:s0
 persist.audio.fluence.voicecomm         u:object_r:vendor_default_prop:s0
 ro.audio.usb.period_us                  u:object_r:vendor_default_prop:s0
 
+# Bluetooth
+ro.hsm.model.num                        u:object_r:hal_bluetooth_qti_prop:s0
+
 # Camera
 camera.clientname                           u:object_r:vendor_camera_prop:s0
 camera.cpp.dumpvideopayload                 u:object_r:vendor_camera_prop:s0

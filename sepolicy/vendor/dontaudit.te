@@ -9,6 +9,7 @@ dontaudit crash_dump self:capability sys_admin;
 dontaudit extra_free_kbytes self:capability sys_admin;
 dontaudit fsck self:capability sys_admin;
 dontaudit hal_usb_default self:capability sys_admin;
+dontaudit hal_usb_qti self:capability sys_admin;
 dontaudit hal_wifi_supplicant_default self:capability sys_admin;
 dontaudit installd self:capability kill;
 dontaudit irsc_util self:capability sys_admin;

@@ -1,2 +1,1 @@
 allow vendor_dataservice_app system_data_file:dir r_dir_perms;
-allow vendor_dataservice_app system_data_file:dir search;

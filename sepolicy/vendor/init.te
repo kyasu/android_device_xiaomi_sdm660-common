@@ -7,10 +7,6 @@ allow init sysfs_battery_supply:file setattr;
 allow init vendor_default_prop:property_service set;
 allow init sysfs_info:file { open read };
 
-allow init {
-    bt_firmware_file
-    firmware_file
-}:filesystem getattr;
 allow init firmware_file:filesystem { getattr };
 allow init bt_firmware_file:filesystem { getattr };
 allow init apex_metadata_file:lnk_file { read };

@@ -96,6 +96,9 @@ vendor/lib64/libqtigef.so|7b8bf697aaec567ff1f0cfd1fdc352a563df864a
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 -system_ext/framework/audiosphere.jar|ecfaddf551830ccb6f5b0b979a407eccc9305e94
 
+# Audio FX modules - from cheetah-user 13 TQ3A.230605.012 10204971 release-keys
+vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+
 # Audio FX modules - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/lib/soundfx/libasphere.so|316ca9f69ff8a97444003624d533cad9ccd642d0
 vendor/lib/soundfx/libqcbassboost.so|fe97b4b27d014436d8b77beec605c5a67828002d

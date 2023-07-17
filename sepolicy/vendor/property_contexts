@@ -104,7 +104,3 @@ rild.libpath				u:object_r:vendor_rild_libpath_prop:s0
 # Thermal engine
 persist.sys.thermal.                    u:object_r:thermal_engine_prop:s0
 sys.thermal.                            u:object_r:thermal_engine_prop:s0
-
-# USB
-vendor.sys.usb.                         u:object_r:vendor_usb_prop:s0
-ro.vendor.usb.                          u:object_r:vendor_usb_prop:s0

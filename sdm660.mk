@@ -232,7 +232,7 @@ PRODUCT_PACKAGES += \
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
-   DeviceSettings
+    DeviceSettings
 
 # Display Device Config
 PRODUCT_COPY_FILES += \

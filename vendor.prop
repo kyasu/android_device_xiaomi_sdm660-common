@@ -122,10 +122,6 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.fm.use_audio_session=true
 
 # Camera
-persist.vendor.camera.dual.isp.sync=0
-persist.vendor.camera.HAL3.enabled=1
-persist.vendor.camera.exif.make=Xiaomi
-persist.vendor.camera.perflock.enable=0
 vendor.camera.aux.packageblacklist=com.discord
 
 # Codec2 switch

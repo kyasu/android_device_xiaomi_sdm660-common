@@ -171,6 +171,15 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
+# Recovery
+ifneq ($(filter lavender,$(TARGET_DEVICE)),)
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab_A.qcom
+else ifeq ($(ENABLE_AB), true)
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab_AB.qcom
+else
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+endif
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 

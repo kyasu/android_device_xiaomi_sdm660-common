@@ -560,3 +560,8 @@ on property:sys.boot_completed=1 && property:ro.boot.fpsensor=gdx
     # stop fps_hal
     stop vendor.fps_hal
 
+# Setup final cpu.uclamp
+on property:sys.boot_completed=1
+    write /dev/cpuctl/background/cpu.uclamp.max 70
+    write /dev/cpuctl/system-background/cpu.uclamp.max 70
+    write /dev/cpuctl/dex2oat/cpu.uclamp.max 80

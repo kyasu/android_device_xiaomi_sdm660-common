@@ -143,6 +143,9 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
+# Multi-Gen LRU
+persist.device_config.mglru_native.lru_gen_config=core
+
 # OEM Unlock reporting
 ro.oem_unlock_supported=1
 

@@ -16,3 +16,4 @@ allow hal_audio_default init:unix_stream_socket connectto;
 
 allow hal_audio_default vendor_data_file:dir { create write add_name };
 allow hal_audio_default vendor_data_file:file { append create getattr open read };
+allow hal_audio_default vendor_wcnss_service_prop:file read;

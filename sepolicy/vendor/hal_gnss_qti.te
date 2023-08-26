@@ -1,1 +1,2 @@
 get_prop(hal_gnss_qti, vendor_pd_locater_dbg_prop)
+allow hal_gnss_qti xtra_control_prop:file read;

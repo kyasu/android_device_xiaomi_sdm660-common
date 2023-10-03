@@ -616,7 +616,7 @@ vendor/bin/msm_irqbalance|33325d1b5bd1c4fdfa964f638da633ef8ca1ac43
 # Keymaster - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|6fdf7c3033c2738eeecb33f6a625526873c6c325
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|53df18bdec6e2641368407c1ef5aa99899d7a23f
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+# vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
 # vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|a4939ac6fa1be764110d573cdeb49f14eed80f44
 vendor/lib/libkeymasterdeviceutils.so|1c176ef4f147fd39704304421cafd2d08766ff58

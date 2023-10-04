@@ -726,9 +726,48 @@ vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
 vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
 vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
 
-# Perf - from Taimen RP1A.201005.004
-vendor/lib/libqti-perfd-client.so|08b0cd20dbc79645ee73ea4fdc5221d41d09588a
-vendor/lib64/libqti-perfd-client.so|cd3def30b6d444430ea8cea8956623d9d165eb7a
+# Perf - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+system_ext/bin/perfservice
+system_ext/etc/init/perfservice.rc
+system_ext/lib/libqti-perfd-client_system.so
+system_ext/lib/libqti_performance.so
+system_ext/lib/vendor.qti.hardware.perf@2.0.so
+system_ext/lib/vendor.qti.hardware.perf@2.1.so
+system_ext/lib/vendor.qti.hardware.perf@2.2.so
+system_ext/lib/vendor.qti.hardware.perf@2.3.so
+system_ext/lib64/libqti-perfd-client_system.so
+system_ext/lib64/libqti_performance.so
+system_ext/lib64/vendor.qti.hardware.perf@2.0.so
+system_ext/lib64/vendor.qti.hardware.perf@2.1.so
+system_ext/lib64/vendor.qti.hardware.perf@2.2.so
+system_ext/lib64/vendor.qti.hardware.perf@2.3.so
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
+vendor/lib/libperf_boost.so
+vendor/lib/libperfconfig.so
+vendor/lib/libperfgluelayer.so
+vendor/lib/libperfioctl.so
+vendor/lib/libqti-perfd-client.so
+vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
+vendor/lib/libqti-utils.so
+vendor/lib/vendor.qti.hardware.perf@1.0.so
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/vendor.qti.hardware.perf@2.1.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+vendor/lib/vendor.qti.hardware.perf@2.3.so
+vendor/lib64/libperfconfig.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libperfioctl.so
+vendor/lib64/libqti-perfd-client.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-util.so
+vendor/lib64/libqti-utils.so
+vendor/lib64/vendor.qti.hardware.perf@1.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/vendor.qti.hardware.perf@2.3.so
 
 # QMI - from LA.QSSI.13.0.r1-09700-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62

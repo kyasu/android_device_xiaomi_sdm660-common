@@ -581,4 +581,4 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b
 # Widevine - from jasmine
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
-vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|0466cd3b2a7b93efd23945e2637430513472ad7c
+vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|8b9012dcd235aa3c67ad09b6f57491362ba6291a

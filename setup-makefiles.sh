@@ -86,11 +86,11 @@ write_headers "clover jasmine_sprout jason lavender platina twolip wayne whyred"
 write_makefiles "${MY_DIR}/proprietary-files.txt"
 
 printf "\n%s\n" "ifeq (\$(BOARD_HAVE_QCOM_FM),true)" >> "${PRODUCTMK}"
-write_makefiles "${MY_DIR}/proprietary-files-fm.txt" true
+write_makefiles "${MY_DIR}/proprietary-files-fm.txt"
 echo "endif" >> "${PRODUCTMK}"
 
 printf "\n%s\n" "ifeq (\$(BOARD_HAVE_IR),true)" >> "${PRODUCTMK}"
-write_makefiles "${MY_DIR}/proprietary-files-ir.txt" true
+write_makefiles "${MY_DIR}/proprietary-files-ir.txt"
 echo "endif" >> "${PRODUCTMK}"
 
 # Finish

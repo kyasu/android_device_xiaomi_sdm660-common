@@ -100,10 +100,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "libutils-v33.so" "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
             ;;
-        vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so | vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so)
-            [ "$2" = "" ] && return 0
-            grep -q "libhidlbase-v32.so" "${2}" || "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
-            ;;
         vendor/lib/vendor.qti.hardware.fingerprint@1.0.so | vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so)
             [ "$2" = "" ] && return 0
             grep -q "libhidlbase-v32.so" "${2}" || "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"

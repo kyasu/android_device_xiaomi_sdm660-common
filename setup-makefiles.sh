@@ -13,7 +13,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}/../../.."
 
-#export TARGET_ENABLE_CHECKELF=true
+export TARGET_ENABLE_CHECKELF=true
 
 HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
@@ -53,6 +53,14 @@ function lib_to_package_fixup_vendor_variants() {
             echo "libutils"
             ;;
         libOmxCore | \
+            libdrmutils | \
+            libgps.utils | \
+            libllvd_smore | \
+            libloc_core | \
+            liblocation_api | \
+            libril | \
+            libsdmutils | \
+            libwifi-hal-ctrl | \
             libwpa_client)
             # Android.mk only packages
             ;;

@@ -31,9 +31,6 @@ namespace_imports = [
 def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'vendor' else None
 
-def lib_fixup_remove_v33(lib: str, *args, **kwargs):
-    return lib.replace('-v33', '') if '-v33' in lib else None
-
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
@@ -56,9 +53,6 @@ lib_fixups: lib_fixups_user_type = {
         'libwifi-hal-ctrl',
         'libwpa_client',
     ): lib_fixup_remove,
-    (
-        'libutils-v33',
-    ): lib_fixup_remove_v33,
 }
 
 

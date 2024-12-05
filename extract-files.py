@@ -44,7 +44,6 @@ lib_fixups: lib_fixups_user_type = {
     (
         'libOmxCore',
         'libdrmutils',
-        'libgps.utils',
         'libllvd_smore',
         'libloc_core',
         'liblocation_api',

@@ -175,9 +175,9 @@ vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 # DPM - from jasmine
 product/bin/dpmd:system_ext/bin/dpmd|49caa8e7d8af8055efdd7ebc0d7f7d67bc600041
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|f061bb76ae844f6df04c1d78caf00cf29a41b112
-product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|ab94e634782b7a2e833ce129eda74cb9333ed3f7
-product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|697c88d7ebef6232ef214b17b4023bbb3ff4e625
+product/etc/init/dpmd.rc:system_ext/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669|f061bb76ae844f6df04c1d78caf00cf29a41b112
+product/etc/permissions/com.qti.dpmframework.xml:system_ext/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09|ab94e634782b7a2e833ce129eda74cb9333ed3f7
+product/etc/permissions/dpmapi.xml:system_ext/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d|697c88d7ebef6232ef214b17b4023bbb3ff4e625
 product/framework/com.qti.dpmframework.jar:system_ext/framework/com.qti.dpmframework.jar|e39a7e06af2d1e95a3724c19c36b8716277f53a1
 product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
@@ -227,7 +227,7 @@ vendor/bin/xtra-daemon;DISABLE_CHECKELF|ebcb5645b3f1058f0775a145dc462dc27550919d
 vendor/bin/xtwifi-client;DISABLE_CHECKELF|0e98f5366d10fa9d94733243cf8bd288c4eeee92
 vendor/bin/xtwifi-inet-agent;DISABLE_CHECKELF|d4567265680ad9e4f22f93e38390adefdba1ee4b
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|488262f63723c789ea9aaed1d63ce32ff8075a15
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|76ddb94f1e1db93622126d24aa737d21d8e137c3
+vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
 vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/etc/cacert_location.pem|3c7d38e49716399b02087b21021d6db315ee5bf4
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
@@ -411,7 +411,7 @@ vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 
 # Peripheral manager - from jasmine
 vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
-vendor/bin/pm-service;DISABLE_CHECKELF|ea63802cf0483ee4ed2a6611ba7f1d0f36970c06
+vendor/bin/pm-service;DISABLE_CHECKELF|b0f77edfe04a3cc6284738196c0044e676d5eeb3|c50216495c7e1a5bbf09eddc9d9c2560ba3b00e5
 vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
 # Postprocessing - from jasmine
@@ -459,7 +459,7 @@ vendor/lib64/libqmiservices.so|0c2930a50082aa9e9d341bd4286971e9143fd358
 
 # Radio - from jasmine
 product/app/QtiTelephonyService/QtiTelephonyService.apk:system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|db60b6fe27b3033f6468b3170b23af18dd0bcdaf
-product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
+product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar|4eece9eb40a8976d2fd9a6a4d5d6dfea0c7674f5
 product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
 vendor/bin/adpl|cd2af02673c750d3cc2da4089bec751dc24f8597
@@ -605,7 +605,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b
 # Widevine - from jasmine
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
-vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|0466cd3b2a7b93efd23945e2637430513472ad7c|a97d3c322990371de6e1adba1224bfbda749de89
+vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|0466cd3b2a7b93efd23945e2637430513472ad7c|8b9012dcd235aa3c67ad09b6f57491362ba6291a
 
 ## proprietary-files-fm.txt
 # FM - from jasmine V11.0.28.0.QDIMIXM
@@ -616,7 +616,7 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|506efd87250697bdae271f86ea472
 
 ## proprietary-files-ir.txt
 # ConsumerIR (lirc) - from jason V12.0.1.0.PCHCNXM
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so;FIX_SONAME|8c614f98e2a42b5ba9e148c01b3d69e7fb59ce1d|7d08b4f8127d72b21ada5191b606a0c0d3afc95a
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so;FIX_SONAME|8c614f98e2a42b5ba9e148c01b3d69e7fb59ce1d|2c60e2cfc2ded7335dcd3d294393e4c564d02621
 
 # ConsumerIR (spi) - from jasmine V11.0.28.0.QDIMIXM
-vendor/lib64/hw/consumerir.spi.sdm660.so;FIX_SONAME|d1f275a91557dfab52e82906986c5094fe078722|37e32c6e6f437b75be0f5c86d51caac5e1614eb4
+vendor/lib64/hw/consumerir.spi.sdm660.so;FIX_SONAME|d1f275a91557dfab52e82906986c5094fe078722|f086cf79cff5624554e3bfb67d44386b94578c4b
